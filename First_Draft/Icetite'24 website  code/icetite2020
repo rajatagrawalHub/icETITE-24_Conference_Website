@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ic-ETITE'24 | ic-ETITE'20</title>
+
+  
+	<link rel="icon" href="icon.png"type="image/png">
+
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="vendors/linericon/style.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="vendors/flat-icon/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+  
+</head>
+<body>
+     <!--================ Header Menu Area start =================-->
+  <header class="header_area" >
+    
+    <div class="main_menu" >
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div style="max-width: 100%;" class="container box_1620" >
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          
+          <span style="margin-left:0%;"><a class="navbar-brand logo_h" href="index.html" ><img width="180px"  src="logonew.jpeg" alt="img"></a></span>
+          
+          
+
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent"  >
+            <ul class="nav navbar-nav menu_nav justify-content">
+              <li class="nav-item " style="padding:1%;" ><a class="nav-link" href="bolt/index.html" style="padding:1%;"><img class="gif" src="img/gif.gif" width="80px" height="70px"></a></li>
+              <li class="nav-item " ><a class="nav-link" href="index.html">Home</a></li> 
+              <li class="nav-item "><a class="nav-link" href="authors.html">Authors</a></li> 
+              <li class="nav-item active"><a class="nav-link" href="registration.html">Registration</a>
+                <li class="nav-item"><a class="nav-link" href="speaker.html">Speakers</a>
+              <li class="nav-item"><a class="nav-link" href="committee.html">Committee</a></li>
+                <li class="nav-item"><a class="nav-link" href="Sponsorship.html" >Sponsorship</a></li> 
+                <li class="nav-item"><a class="nav-link" href="visa.html" >Visa</a></li> 
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+             <li class="nav-item"><a class="nav-link" href="ic-ETITE'20.html">ic-ETITE'20</a></li>
+              <li class="nav-item" style="padding:1%;"><a class="nav-link" href="https://vit.ac.in" target="_blank" style="padding:2%;"><img width="170px" height="auto" style="margin-left:20px;" src="img/vit_logo-2.jpg" alt=""></a></li>
+            </ul>     
+          </div> 
+          
+        </div>
+      </nav>
+    </div> 
+  </header>
+  <!--================Header Menu Area =================-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top" style=" padding : 0px ; color:#343e98; background-color: rgba(60, 222, 45, 0); "><i class="fa-solid fa-circle-up fa-2x"></i></button>
+  
+ 
+
+  <br>
+ <br>
+    <div class="container" >
+      <div class="section-intro text-center pb-98px">
+        <h2 class="primary-text">coming soon...</h2>
+        <img src="img/home/section-style.png" alt="">
+      </div>
+      </div>
+
+
+      <footer class="footer-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4  col-md-6 col-sm-6">
+              <div class="single-footer-widget">
+                <h6>ic-ETITE'24</h6>
+                <img width="200px" height="auto" src="C:\Users\Lohith\Desktop\icetite 2024\icetite24.png">
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="single-footer-widget">
+                <h6>Address</h6>
+                <div class="row">
+                  <div class="col">
+                    <ul>
+                      <li><a href="https://vit.ac.in" target="_blank">Vellore Institute of Technology, Vellore, Tamil Nadu, India. 632014.</a></li>
+                      
+                    </ul>
+                  </div>
+                                      
+                </div>							
+              </div>
+            </div>							
+            <div class="col-lg-4  col-md-6 col-sm-6">
+              <div class="single-footer-widget">
+                  <a href="Icetite'20.pdf" download>
+                    <h6 style="color: #ea0763">Download Brochure</h6>
+                  </a>
+                  <br>
+                  <a href="NOC_letter.pdf" download>
+                    <h6 style="color: #ea0763">Download MHA, India - NOC</h6>
+                  </a>
+                                
+                <div id="mc_embed_signup">
+                  
+                </div>
+              </div>
+            </div>
+                        
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row align-items-center">
+              <p class="col-lg-8 col-sm-12 footer-text m-0 text-center text-lg-left"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | ic-ETITE'24</a>
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+              <div class="col-lg-4 col-sm-12 footer-social text-center text-lg-right">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      
+
+
+
+
+
+
+      <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+      <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+      <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+      <script src="vendors/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+      <script src="js/jquery.ajaxchimp.min.js"></script>
+      <script src="js/mail-script.js"></script>
+      <script src="js/countdown.js"></script>
+      <script src="js/jquery.magnific-popup.min.js"></script>	
+      <script src="js/main.js"></script>
+      <script > 
+      
+        
+      </script>
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154706298-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-154706298-1');
+    </script>
+    
+    
+    
+    
+
+
+
+
+
+</body>
+</html>

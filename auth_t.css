@@ -1,0 +1,487 @@
+        body {
+            margin: 0 auto;
+            overflow-x: hidden;
+            font-family: 'Montserrat', sans-serif;
+            color: #838383;
+        }
+
+        body a {
+            text-decoration: none;
+        }
+
+        ::-webkit-scrollbar {
+            width: 2px;
+            scroll-behavior: smooth;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #f50136;
+        }
+
+        #Navbar {
+            min-height: 50px;
+            background-color: rgba(24, 24, 28, 1);
+            padding: 5px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1030;
+            -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+        }
+
+        #Navimg {
+            float: left;
+            margin-left: 80px;
+        }
+
+        #Navbar img {
+            width: 110px;
+            height: 42px;
+        }
+
+        #NavUl {
+            font-size: 12px;
+            color: #838383;
+            float: right;
+            margin-right: 80px;
+        }
+
+        #NavUl li {
+            list-style: none;
+            float: left;
+            padding: 5px 8px;
+        }
+
+        #Navbar a:hover {
+            color: #f50136;
+            text-decoration-color: white;
+            text-decoration-line: none;
+            text-decoration-style: solid;
+        }
+
+        #Navbar a {
+            text-decoration: none;
+            color: #ffffff;
+            -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+
+        }
+
+        #Navbar i {
+            font-size: 18px;
+        }
+
+        .btn {
+            color: #ffffff;
+            background-color: #f50136;
+            padding: 13px 30px;
+            font-size: 12px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            -webkit-transition: all 0.4s ease-out;
+            transition: all 0.7s ease-out;
+        }
+
+        .btn:hover {
+            background-color: rgba(24, 24, 28, 1);
+        }
+
+
+
+        .sectdiv {
+            margin: 0;
+            background-color: #ffffff;
+        }
+
+
+        .tstroke {
+            border-top: 3px solid #f50136;
+        }
+
+        .heading {
+            color: black;
+            font-size: 36px;
+            padding-left: 70px;
+            padding-top: 50px;
+            padding-bottom: 0;
+            font-weight: 700;
+        }
+
+        #spnsr {
+            background-color: #f0f2f6;
+            margin: 120px 0 0 0;
+            padding-bottom: 20px;
+        }
+
+        #spnsr p {
+            margin: 0;
+            padding-left: 70px;
+            padding-top: 70px;
+            padding-bottom: 0;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        #spnsr img {
+            width: 150px;
+            padding: 0 40px;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+            -webkit-transition: all ease-in-out 0.4s;
+            transition: all ease-in-out 0.4s;
+        }
+
+        #sponsorslog {
+            margin: 50px 80px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+        }
+
+        .Links {
+            font-weight: 900;
+            color: #838383;
+            margin-top: 10px;
+        }
+
+        .content a {
+            text-decoration: none;
+        }
+
+        #sponsorslog img:hover {
+            transform: scale(1.13);
+        }
+
+        #Vitl {
+            font-size: 52px;
+            font-family: 'Delicious Handrawn', cursive;
+            font-weight: 900;
+            width: 150px;
+            padding: 42px 0 0 0px !important;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+            -webkit-transition: all ease-in-out 0.4s;
+            transition: all ease-in-out 0.4s;
+        }
+
+
+        #Vitl:hover {
+            transform: scale(1.13);
+        }
+
+
+        #Register {
+            margin: 0 !important;
+            background-image: url(tickets.png.jpg);
+            background-size: cover;
+            padding-bottom: 50px;
+        }
+
+        #Register .heading {
+            color: white !important;
+            padding-top: 90px;
+            margin: 0;
+        }
+
+        .textbo {
+            color: white;
+            font-size: 14px;
+            margin-top: 30px;
+            margin-left: 70px;
+            margin-right: 380px;
+            line-height: 24px;
+            word-wrap: break-word;
+        }
+
+        #tbtn {
+            margin-top: 30px;
+            margin-left: 70px;
+        }
+
+        #footbar {
+            margin: 0;
+            padding: 80px;
+            background-color: #0b031b;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            color: white;
+        }
+
+        #newlett {
+            white-space: nowrap;
+            color: white;
+            padding: 10px;
+        }
+
+        #newlett p {
+            margin: 0;
+        }
+
+        .headin {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        #eventsect {
+            margin-right: 280px;
+            color: white;
+            font-size: 14px;
+            line-height: 24px;
+            padding: 10px;
+        }
+
+        #eventsect img {
+            width: 120px;
+        }
+
+        #eventsect p {
+            margin-left: 11px;
+        }
+
+        #subs {
+            display: flex;
+            flex-flow: column nowrap;
+        }
+
+        #newlett input {
+            background-color: #1f1039;
+            margin: 0;
+            border: 1px solid #1f1039;
+            font-size: 12px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            color: #ffffff;
+            padding: 12px 15px;
+            width: 90%;
+            outline: 0 !important;
+            margin-top: 30px;
+            font-style: italic;
+        }
+
+        #rbtn {
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        #handlebar {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            margin-left: 8px;
+        }
+
+        #handlebar i {
+            font-size: 16px;
+            padding: 12px;
+            margin: 6px;
+            color: #f50136;
+            border: 1px solid #f50136;
+            border-radius: 50%;
+            cursor: pointer;
+            -webkit-transition: all ease-in-out 0.4s;
+            transition: all ease-in-out 0.4s;
+
+        }
+
+        #handlebar i:hover {
+            color: white;
+            background-color: #f50136;
+            transform: scale(1.1);
+
+        }
+
+        .foot {
+            background-color: black;
+            margin: 0;
+            padding: 5px 0 2px 80px;
+            color: white;
+            font-size: 12px;
+        }
+
+        #DateS {
+            margin: 0 0 0 70px;
+            line-height: 22px;
+        }
+
+        .lpart {
+            color: #f50136;
+            font-weight: 900;
+        }
+
+        .lname {
+            color: #f50136;
+            font-weight: 400;
+            line-height: 30px;
+        }
+
+        #vbtn {
+            margin-top: 30px;
+            margin-right: 30px;
+        }
+
+        #names {
+            margin-top: 20px;
+            padding: 0 !important;
+        }
+
+        #names p {
+            padding: 0;
+        }
+
+        .btn a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #doms p {
+            margin: 0;
+        }
+
+        #doms {
+            margin: 10px 50px 5px 70px;
+            background-color: #f0f2f6;
+            padding-bottom: 20px;
+        }
+
+        #btns {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            margin: 0;
+        }
+
+        .ctbtn {
+            background-color: #838383;
+            color: white;
+            font-size: 14px;
+            font-weight: 900;
+            text-align: center;
+            padding: 30px 20px;
+            border-right: 1px solid white;
+            cursor: pointer;
+            -webkit-transition: all ease-in-out 0.4s;
+            transition: all ease-in-out 0.4s;
+
+        }
+
+        #c1 {
+            background-color: #f50136;
+        }
+
+        #conten2,
+        #conten3,
+        #conten4 {
+            display: none;
+        }
+
+        .conten {
+            display: flex;
+            flex-flow: column wrap;
+            margin: 10px 0 0 20px;
+            font-size: 12px;
+            line-height: 18px;
+            -webkit-transition: all ease-in-out 0.4s;
+            transition: all ease-in-out 0.4s;
+        }
+
+        #mess p {
+            margin: 0;
+        }
+
+        #mess {
+            margin: 10px 40px 5px 70px;
+            padding: 2px;
+        }
+
+        .imp {
+            color: #f50136;
+            font-size: 18px;
+            font-weight: 900;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        .bod {
+            color: #838383;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 27px;
+            padding-top: 10px;
+        }
+
+        #btnhldr {
+            display: flex;
+            flex-flow: column nowrap;
+            padding: 5px;
+        }
+
+        .hldsect {
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        .hldsect button {
+            margin: 10px;
+            border-radius: 0px;
+            background-color: #1f1039;
+            font-size: 14px;
+        }
+
+        .hldsect p {
+            margin: 18px !important;
+            color: black;
+            font-weight: 700;
+        }
+
+        #bt1 {
+            padding-right: 49px;
+        }
+
+        .PriceCh {
+            margin: 20px 0 0 70px;
+            font-size: 20px;
+        }
+
+        .PriceCh table {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .PriceCh table td {
+            border: 1px solid black;
+            padding: 20px 42px;
+        }
+
+        .PriceCh table th {
+            font-size: 20px;
+            font-weight: 900;
+            padding: 20px;
+            color: #f50136;
+            margin: 0 !important;
+            border: 1px solid black;
+        }
+
+        .low th {
+            color: #1f1039 !important;
+            font-size: 18px !important;
+        }
+
+        .PriceCh p {
+            font-size: 14px;
+            padding-top: 5px;
+        }
+
+        .PriceCh .col {
+            color: #f50136;
+            font-weight: 900;
+        }
+
+        #Regd {
+            padding-top: 10px;
+        }

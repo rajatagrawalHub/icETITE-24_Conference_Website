@@ -1,0 +1,2148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="team" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/vegas.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/countdown.css">
+        
+   
+        <!-- MAIN CSS -->
+        <link rel="stylesheet" href="css/templatemo-style.css">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>ic-ETITE'20 | Speakers</title>
+        <link rel="icon" href="../img/icon.png" type="image/png">
+        <link rel="stylesheet" href="../vendors/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="../vendors/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="../vendors/themify-icons/themify-icons.css">
+        <link rel="stylesheet" href="../vendors/linericon/style.css">
+        <link rel="stylesheet" href="../vendors/owl-carousel/owl.theme.default.min.css">
+        <link rel="stylesheet" href="../vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="../css/magnific-popup.css">
+        <link rel="stylesheet" href="../vendors/flat-icon/font/flaticon.css">
+        
+      
+        <link rel="stylesheet" href="../css/style.css">
+          <style>
+          .sbox {
+          border-radius: 8px;
+          border: 2px solid #40a7dc;
+              text-align: center;
+          margin: 5px;
+              
+              
+      }</style>
+          
+    
+    <script type="text/worker" id="nitro-web-worker">var preloadRequests=0;var remainingCount={};var baseURI="";self.onmessage=function(e){switch(e.data.cmd){case"RESOURCE_PRELOAD":var o=e.data.requestId;remainingCount[o]=0;e.data.resources.forEach(function(e){preload(e,function(o){return function(){console.log(o+" DONE: "+e);if(--remainingCount[o]==0){self.postMessage({cmd:"RESOURCE_PRELOAD",requestId:o})}}}(o));remainingCount[o]++});break;case"SET_BASEURI":baseURI=e.data.uri;break}};function preload(e,o){if(typeof URL!=="undefined"&&baseURI){try{var r=new URL(e%2cbaseURI.html);e=r.href}catch(e){console.log("Worker error: "+e.message)}}console.log("Preloading "+e);try{var n=new Request(e,{mode:"no-cors",redirect:"follow"});fetch(n).finally(o)}catch(r){var a=new XMLHttpRequest;a.responseType="blob";a.onload=o;a.onerror=o;a.open("GET.html",e,true);a.send()}}</script>
+    <script>
+        if (window.navigator.userAgent.indexOf("MSIE ") > -1 || window.navigator.userAgent.indexOf("Trident") > -1) {
+            if (!Array.prototype.forEach) {
+                Array.prototype.forEach = function(e, t) {
+                    for (var n = 0, r = this.length; n < r; ++n) {
+                        e.call(t, this[n], n, this)
+                    }
+                }
+            }
+            if (window.NodeList && !NodeList.prototype.forEach) {
+                NodeList.prototype.forEach = function(e, t) {
+                    t = t || window;
+                    for (var n = 0; n < this.length; n++) {
+                        e.call(t, this[n], n, this)
+                    }
+                }
+            }(function(e) {
+                var t = e.prototype;
+                t.after || (t.after = function() {
+                    var e, t = arguments,
+                        n = t.length,
+                        r = 0,
+                        i = this,
+                        o = i.parentNode,
+                        a = Node,
+                        c = String,
+                        u = document;
+                    if (o !== null) {
+                        while (r < n) {
+                            (e = t[r]) instanceof a ? (i = i.nextSibling) !== null ? o.insertBefore(e, i) : o.appendChild(e) : o.appendChild(u.createTextNode(c(e)));
+                            ++r
+                        }
+                    }
+                })
+            })(Element)
+        }(function(e) {
+            e.forEach(function(e) {
+                if (e.hasOwnProperty("remove")) {
+                    return
+                }
+                Object.defineProperty(e, "remove", {
+                    configurable: true,
+                    enumerable: true,
+                    writable: true,
+                    value: function e() {
+                        if (this.parentNode === null) {
+                            return
+                        }
+                        this.parentNode.removeChild(this)
+                    }
+                })
+            })
+        })([Element.prototype, CharacterData.prototype, DocumentType.prototype]);
+        var NPRL, NitroResourceLoader;
+        NPRL = NitroResourceLoader = function() {
+            var e = window.URL || window.webkitURL;
+            var t = true;
+            var n = false;
+            var r = 2;
+            var i;
+            var o;
+            var a = null;
+            var c = null;
+            var u = {
+                touch: ["touchmove", "touchend"],
+                default: ["mousemove", "click", "keydown"]
+            };
+            var d = true;
+            var s = [];
+            var l = false;
+            var f = [];
+            var v = 0;
+            var p = 0;
+            var m = false;
+            var h = 0;
+            var g = null;
+            var y = false;
+            var E = [];
+            var b = [];
+            var L = [];
+            var w = false;
+            var N = {};
+            var P = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+
+            function S(e, t) {
+                if (!N[e]) {
+                    N[e] = []
+                }
+                N[e].push(t)
+            }
+
+            function A(e, t) {
+                if (N[e]) {
+                    var n = 0,
+                        r = N[e];
+                    for (var n = 0; n < r.length; n++) {
+                        r[n].call(this, t)
+                    }
+                }
+            }
+
+            function R() {
+                (function(e, t) {
+                    var n = null;
+                    var r = function(e) {
+                        n(e)
+                    };
+                    var i = document.createElement("div");
+                    var o = null;
+                    var a = {};
+                    var c = null;
+                    var u = null;
+                    var d = 0;
+                    e.addEventListener(t, function(n) {
+                        if (["load", "DOMContentLoaded"].indexOf(t) != -1) {
+                            if (u) {
+                                M(function() {
+                                    e.triggerNitroEvent(t)
+                                })
+                            }
+                            c = true
+                        } else if (t == "readystatechange") {
+                            d++;
+                            NPh.ogReadyState = d == 1 ? "interactive" : "complete";
+                            if (u && u >= d) {
+                                NPh.documentReadyState = NPh.ogReadyState;
+                                M(function() {
+                                    e.triggerNitroEvent(t)
+                                })
+                            }
+                        }
+                    });
+                    i.addEventListener(t, function(e) {
+                        if (["load", "DOMContentLoaded"].indexOf(t) != -1) {
+                            if (!c) {
+                                e.preventDefault();
+                                e.stopImmediatePropagation()
+                            } else {}
+                            u = true
+                        } else if (t == "readystatechange") {
+                            u = NPh.documentReadyState == "interactive" ? 1 : 2;
+                            if (d < u) {
+                                e.preventDefault();
+                                e.stopImmediatePropagation()
+                            }
+                        }
+                    });
+                    switch (t) {
+                        case "load":
+                            o = "onload";
+                            break;
+                        case "readystatechange":
+                            o = "onreadystatechange";
+                            break;
+                        case "pageshow":
+                            o = "onpageshow";
+                            break;
+                        default:
+                            o = null;
+                            break
+                    }
+                    if (o) {
+                        Object.defineProperty(e, o, {
+                            get: function() {
+                                return n
+                            },
+                            set: function(e) {
+                                if (!n) {
+                                    i.addEventListener(t, r)
+                                }
+                                n = e
+                            }
+                        })
+                    }
+                    Object.defineProperty(e, "addEventListener" + t, {
+                        value: function(n) {
+                            if (n != t || !NPh.startedScriptLoading || document.currentScript && document.currentScript.hasAttribute("nitro-exclude")) {
+                                e.ogAddEventListener.apply(e, arguments);
+                                a[arguments[1]] = e
+                            } else {
+                                i.addEventListener.apply(i, arguments);
+                                a[arguments[1]] = i
+                            }
+                        }
+                    });
+                    Object.defineProperty(e, "removeEventListener" + t, {
+                        value: function(t) {
+                            var n = a[arguments[1]];
+                            if (n == e) {
+                                e.ogRemoveEventListener.apply(e, arguments)
+                            } else {
+                                i.removeEventListener.apply(i, arguments)
+                            }
+                        }
+                    });
+                    Object.defineProperty(e, "triggerNitroEvent" + t, {
+                        value: function(t, n) {
+                            n = n || e;
+                            var r = new Event(t, {
+                                bubbles: true
+                            });
+                            r.isNitroPack = true;
+                            Object.defineProperty(r, "target", {
+                                get: function() {
+                                    return n
+                                },
+                                set: function() {}
+                            });
+                            i.dispatchEvent(r)
+                        }
+                    });
+                    if (typeof e.triggerNitroEvent === "undefined") {
+                        (function() {
+                            var t = e.addEventListener;
+                            var n = e.removeEventListener;
+                            Object.defineProperty(e, "ogAddEventListener", {
+                                value: t
+                            });
+                            Object.defineProperty(e, "ogRemoveEventListener", {
+                                value: n
+                            });
+                            Object.defineProperty(e, "addEventListener", {
+                                value: function(n) {
+                                    var r = "addEventListener" + n;
+                                    if (typeof e[r] !== "undefined") {
+                                        e[r].apply(e, arguments)
+                                    } else {
+                                        t.apply(e, arguments)
+                                    }
+                                }
+                            });
+                            Object.defineProperty(e, "removeEventListener", {
+                                value: function(t) {
+                                    var r = "removeEventListener" + t;
+                                    if (typeof e[r] !== "undefined") {
+                                        e[r].apply(e, arguments)
+                                    } else {
+                                        n.apply(e, arguments)
+                                    }
+                                }
+                            });
+                            Object.defineProperty(e, "triggerNitroEvent", {
+                                value: function(t, n) {
+                                    var r = "triggerNitroEvent" + t;
+                                    if (typeof e[r] !== "undefined") {
+                                        e[r].apply(e, arguments)
+                                    }
+                                }
+                            })
+                        })()
+                    }
+                }).apply(null, arguments)
+            }
+            R(window, "load");
+            R(window, "pageshow");
+            R(window, "DOMContentLoaded");
+            R(document, "DOMContentLoaded");
+            R(document, "readystatechange");
+            try {
+                var O = new Worker(e.createObjectURL(new Blob([document.getElementById("nitro-web-worker").textContent], {
+                    type: "text/javascript"
+                })))
+            } catch (e) {
+                var O = new Worker("data:text/javascript;base64," + btoa(document.getElementById("nitro-web-worker").textContent))
+            }
+            O.onmessage = function(e) {
+                if (e.data.cmd == "RESOURCE_PRELOAD") {
+                    A(e.data.requestId, e)
+                }
+            };
+            if (typeof document.baseURI !== "undefined") {
+                O.postMessage({
+                    cmd: "SET_BASEURI",
+                    uri: document.baseURI
+                })
+            }
+            var k = function() {
+                var e = " -webkit- -moz- -o- -ms- ".split(" ");
+                var t = function(e) {
+                    return window.matchMedia(e).matches
+                };
+                if ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch) {
+                    return true
+                }
+                var n = ["(", e.join("touch-enabled),("), "heartz", ")"].join("");
+                return t(n)
+            };
+            var C = function(e) {
+                if (!e.target.hasAttribute("nitro-dynamically-added-script")) {
+                    if (--v == 0) {
+                        M(j)
+                    }
+                } else {
+                    if (--p == 0) {
+                        M(T)
+                    }
+                }
+            };
+            var I = function(t) {
+                var n = t.innerHTML;
+                try {
+                    var r = e.createObjectURL(new Blob([n.replace(/^(?:<!--)?(.*?)(?:-->)?$/gm, "$1")], {
+                        type: "text/javascript"
+                    }))
+                } catch (e) {
+                    var r = "data:text/javascript;base64," + btoa(n.replace(/^(?:<!--)?(.*?)(?:-->)?$/gm, "$1"))
+                }
+                return r
+            };
+            var j = function() {
+                NPh.documentReadyState = "interactive";
+                document.triggerNitroEvent("readystatechange");
+                document.triggerNitroEvent("DOMContentLoaded");
+                window.triggerNitroEvent("DOMContentLoaded", document);
+                NPh.documentReadyState = "complete";
+                document.triggerNitroEvent("readystatechange");
+                if (p == 0) {
+                    M(T)
+                }
+                M(D)
+            };
+            var T = function() {
+                window.triggerNitroEvent("load", document);
+                window.triggerNitroEvent("pageshow", document);
+                g.disconnect();
+                var e = null;
+                if (r == 1) {
+                    e = F
+                } else {
+                    e = Y
+                }
+                M(e)
+            };
+            var M = function(e) {
+                if (P) P(e);
+                else setTimeout(e, 0)
+            };
+            var x = function(e) {
+                if (e.type == "touchend" || e.type == "click") {
+                    c = e
+                }
+            };
+            var D = function() {
+                if (c) {
+                    setTimeout(function(e) {
+                        return function() {
+                            var t = function(e, t, n) {
+                                var r = new Event(e, {
+                                    bubbles: true,
+                                    cancelable: true
+                                });
+                                if (e == "click") {
+                                    r.clientX = t;
+                                    r.clientY = n
+                                } else {
+                                    r.touches = [{
+                                        clientX: t,
+                                        clientY: n
+                                    }]
+                                }
+                                return r
+                            };
+                            var n;
+                            if (e.type == "touchend") {
+                                var r = e.changedTouches[0];
+                                n = document.elementFromPoint(r.clientX, r.clientY);
+                                n.dispatchEvent(t("touchstart"), r.clientX, r.clientY);
+                                n.dispatchEvent(t("touchend"), r.clientX, r.clientY);
+                                n.dispatchEvent(t("click"), r.clientX, r.clientY)
+                            } else if (e.type == "click") {
+                                n = document.elementFromPoint(e.clientX, e.clientY);
+                                n.dispatchEvent(t("click"), e.clientX, e.clientY)
+                            }
+                        }
+                    }(c), 150);
+                    c = null
+                }
+            };
+            var q = function() {
+                if (n) {
+                    o.forEach(function(e) {
+                        document.removeEventListener(e, i);
+                        document.removeEventListener(e, x)
+                    });
+                    if (a) {
+                        clearTimeout(a);
+                        a = null
+                    }
+                }
+                if (h === 1) {
+                    m = true;
+                    return
+                } else if (h === 0) {
+                    h = -1
+                }
+                NPh.startedScriptLoading = true;
+                Object.defineProperty(document, "readyState", {
+                    get: function() {
+                        return NPh.documentReadyState
+                    },
+                    set: function() {}
+                });
+                var e = document;
+                var t = {
+                    childList: true,
+                    subtree: true
+                };
+                g = new MutationObserver(function(e, t) {
+                    e.forEach(function(e) {
+                        if (e.type == "childList" && e.addedNodes.length > 0) {
+                            e.addedNodes.forEach(function(e) {
+                                if (e.tagName == "SCRIPT" && e.hasAttribute("src") && !e.hasAttribute("data-nitro-for-id") || e.tagName == "IMG" || e.tagName == "IFRAME" || e.tagName == "LINK" && e.hasAttribute("href") && e.hasAttribute("rel") && e.getAttribute("rel") == "stylesheet") {
+                                    e.setAttribute("nitro-dynamically-added-script", true);
+                                    p++;
+                                    e.addEventListener("load", C);
+                                    e.addEventListener("error", C)
+                                }
+                            })
+                        }
+                    })
+                });
+                g.observe(e, t);
+                var r = f.shift();
+                while (r) {
+                    var c;
+                    var u = JSON.parse(atob(r.meta));
+                    var d = u.delay;
+                    if (r.type == "inline") {
+                        var s = document.getElementById(r.id);
+                        if (s) {
+                            s.remove()
+                        } else {
+                            r = f.shift();
+                            continue
+                        }
+                        c = I(s);
+                        if (c === false) {
+                            r = f.shift();
+                            continue
+                        }
+                    } else {
+                        c = r.src
+                    }
+                    var l = document.createElement("script");
+                    l.src = c;
+                    l.setAttribute("data-nitro-for-id", r.id);
+                    for (var E in u.attributes) {
+                        if (u.attributes[E] === false) {
+                            l.setAttribute(E, "")
+                        } else {
+                            l.setAttribute(E, u.attributes[E])
+                        }
+                    }
+                    l.async = false;
+                    if (d) {
+                        setTimeout(function(e, t) {
+                            var n = document.querySelector("[data-nitro-marker-id='" + t + "']");
+                            if (n) {
+                                n.after(e)
+                            } else {
+                                document.head.appendChild(e)
+                            }
+                        }.bind(null, l, r.id), d)
+                    } else {
+                        l.addEventListener("load", C);
+                        l.addEventListener("error", C);
+                        v++;
+                        var b = document.querySelector("[data-nitro-marker-id='" + r.id + "']");
+                        if (b) {
+                            M(function(e, t) {
+                                return function() {
+                                    e.after(t)
+                                }
+                            }(b, l))
+                        } else {
+                            M(function(e) {
+                                return function() {
+                                    document.head.appendChild(e)
+                                }
+                            }(l))
+                        }
+                    }
+                    if (y) {
+                        return
+                    }
+                    r = f.shift()
+                }
+            };
+            var B = function() {
+                var e = document.getElementById("nitro-deferred-styles");
+                var t = document.createElement("div");
+                t.innerHTML = e.textContent;
+                return t
+            };
+            var F = function(e) {
+                isPreload = e && e.type == "NitroPreload";
+                if (!isPreload) {
+                    d = false;
+                    if (n) {
+                        o.forEach(function(e) {
+                            document.removeEventListener(e, i);
+                            document.removeEventListener(e, x)
+                        });
+                        if (a) {
+                            clearTimeout(a);
+                            a = null
+                        }
+                    }
+                }
+                if (l === false) {
+                    var t = B();
+                    l = t.querySelectorAll('link[rel="stylesheet"]').length;
+                    if (l) {
+                        document.head.appendChild(t)
+                    } else if (!isPreload) {
+                        z()
+                    }
+                } else if (l === 0 && !isPreload) {
+                    z()
+                }
+            };
+            var U = function() {
+                var e = B();
+                var t = e.childNodes;
+                var n;
+                var r = [];
+                for (var i = 0; i < t.length; i++) {
+                    n = t[i];
+                    if (n.href) {
+                        r.push(n.href)
+                    }
+                }
+                if (r.length) {
+                    var o = "css-preload";
+                    S(o, function(e) {
+                        F(new Event("NitroPreload"))
+                    });
+                    O.postMessage({
+                        cmd: "RESOURCE_PRELOAD",
+                        resources: r,
+                        requestId: o
+                    })
+                }
+            };
+            var X = function() {
+                if (h === -1) return;
+                h = 1;
+                var e = [];
+                var t, n;
+                for (var r = 0; r < f.length; r++) {
+                    t = f[r];
+                    if (t.type != "inline") {
+                        if (t.src) {
+                            n = JSON.parse(atob(t.meta));
+                            if (n.delay) continue;
+                            e.push(t.src)
+                        }
+                    }
+                }
+                if (e.length) {
+                    var i = "js-preload";
+                    S(i, function(e) {
+                        h = 2;
+                        if (m) {
+                            M(q)
+                        }
+                    });
+                    O.postMessage({
+                        cmd: "RESOURCE_PRELOAD",
+                        resources: e,
+                        requestId: i
+                    })
+                }
+            };
+            var Y = function() {
+                while (b.length) {
+                    style = b.shift();
+                    if (style.hasAttribute("nitropack-onload")) {
+                        style.setAttribute("onload", style.getAttribute("nitropack-onload"));
+                        M(function(e) {
+                            return function() {
+                                e.dispatchEvent(new Event("load"))
+                            }
+                        }(style))
+                    }
+                }
+                while (L.length) {
+                    style = L.shift();
+                    if (style.hasAttribute("nitropack-onerror")) {
+                        style.setAttribute("onerror", style.getAttribute("nitropack-onerror"));
+                        M(function(e) {
+                            return function() {
+                                e.dispatchEvent(new Event("error"))
+                            }
+                        }(style))
+                    }
+                }
+            };
+            var H = function() {
+                if (!w) {
+                    w = true;
+                    onStylesLoadEvent = new Event("NitroStylesLoaded");
+                    onStylesLoadEvent.isNitroPack = true;
+                    window.dispatchEvent(onStylesLoadEvent)
+                }
+            };
+            var z = function() {
+                if (t) {
+                    M(function() {
+                        var e = document.getElementById("nitro-critical-css");
+                        if (e) {
+                            e.remove()
+                        }
+                    })
+                }
+                if (r == 2) {
+                    M(q)
+                } else {
+                    Y()
+                }
+            };
+            return {
+                setAutoRemoveCriticalCss: function(e) {
+                    t = e
+                },
+                registerScript: function(e, t, n) {
+                    f.push({
+                        type: "remote",
+                        src: e,
+                        id: t,
+                        meta: n
+                    })
+                },
+                registerInlineScript: function(e, t) {
+                    f.push({
+                        type: "inline",
+                        id: e,
+                        meta: t
+                    })
+                },
+                registerStyle: function(e, t, n) {
+                    s.push({
+                        href: e,
+                        rel: t,
+                        media: n
+                    })
+                },
+                onLoadStyle: function(e) {
+                    b.push(e);
+                    if (l !== false && --l == 0) {
+                        M(H);
+                        if (d) {
+                            d = false
+                        } else {
+                            z()
+                        }
+                    }
+                },
+                onErrorStyle: function(e) {
+                    L.push(e);
+                    if (l !== false && --l == 0) {
+                        M(H);
+                        if (d) {
+                            d = false
+                        } else {
+                            z()
+                        }
+                    }
+                },
+                loadJs: function(e, t) {
+                    if (!e.src) {
+                        var n = I(e);
+                        if (n !== false) {
+                            e.src = n;
+                            e.innerHTML = ""
+                        }
+                    }
+                    if (NPh.documentReadyState != "complete") {
+                        e.addEventListener("load", C);
+                        e.addEventListener("error", C);
+                        v++
+                    }
+                    if (t) {
+                        M(function(e, t) {
+                            return function() {
+                                e.after(t)
+                            }
+                        }(t, e))
+                    } else {
+                        M(function(e) {
+                            return function() {
+                                document.head.appendChild(e)
+                            }
+                        }(e))
+                    }
+                },
+                loadQueuedResources: function() {
+                    i = r == 1 ? q : F;
+                    o = k() ? u.touch : u.default;
+                    if (!n) {
+                        M(i)
+                    } else {
+                        if (navigator.userAgent.indexOf("Edge/index.html") == -1) {
+                            U();
+                            S("css-preload", X)
+                        }
+                        o.forEach(function(e) {
+                            document.addEventListener(e, x);
+                            document.addEventListener(e, i)
+                        });
+                        a = setTimeout(i, 5500)
+                    }
+                },
+                fontPreload: function(e) {
+                    var t = "critical-fonts";
+                    S(t, function(e) {
+                        document.getElementById("nitro-critical-fonts").type = "text/css"
+                    });
+                    O.postMessage({
+                        cmd: "RESOURCE_PRELOAD",
+                        resources: e,
+                        requestId: t
+                    })
+                },
+                pauseScriptLoading: function() {
+                    console.log("Pausing script loading");
+                    y = true
+                },
+                resumeScriptLoading: function() {
+                    console.log("Resuming script loading");
+                    y = false;
+                    q()
+                }
+            }
+        }();
+        var NPh, NitroPackHelper;
+        NPh = NitroPackHelper = function() {
+            var e = {};
+            var t = document.write;
+            var n = [];
+            var r = [];
+            var i = function(e) {
+                if (e.src || !e.hasAttribute("nitro-lazy-src")) return e;
+                var t = e.cloneNode(true);
+                t.src = e.getAttribute("nitro-lazy-src");
+                t.removeAttribute("nitro-lazy-src");
+                e.parentNode.replaceChild(t, e);
+                return t
+            };
+            var o = function() {
+                var e, t;
+                for (e = 0; e < r.length; e++) {
+                    r.splice(e, 1, i(r[e]))
+                }
+                for (e = 0; e < n.length; e++) {
+                    t = n[e];
+                    t.lib(t.selector).fitVidsOg(t.options)
+                }
+            };
+            return {
+                documentWrite: function(n, r) {
+                    if (n && n.hasAttribute("nitro-exclude")) {
+                        return t.call(document, r)
+                    }
+                    var i = null;
+                    if (typeof e[n] != "undefined") {
+                        i = e[n]
+                    } else {
+                        i = document.createElement("span");
+                        e[n] = i
+                    }
+                    var o = null;
+                    if (n) {
+                        if (n.hasAttribute("data-nitro-for-id")) {
+                            o = document.querySelector('template[data-nitro-marker-id="' + n.getAttribute("data-nitro-for-id") + '"]')
+                        } else {
+                            o = n
+                        }
+                    }
+                    i.innerHTML += r;
+                    console.log("Injecting document.write");
+                    if (o) {
+                        o.parentNode.insertBefore(i, o)
+                    } else {
+                        document.body.appendChild(i)
+                    }
+                    var a = document.createElement("span");
+                    a.innerHTML = r;
+                    var c = a.querySelectorAll("script");
+                    if (c.length) {
+                        c.forEach(function(e) {
+                            var t = e.getAttributeNames();
+                            var n = document.createElement("script");
+                            t.forEach(function(t) {
+                                n.setAttribute(t, e.getAttribute(t))
+                            });
+                            n.async = false;
+                            NPRL.loadJs(n, o)
+                        })
+                    }
+                    console.log("Injected document.write")
+                },
+                TrustLogo: function(e, t) {
+                    var n = document.getElementById(e);
+                    var r = document.createElement("img");
+                    r.src = t;
+                    n.parentNode.insertBefore(r, n)
+                },
+                logFitVidsCall: function(e, t, i) {
+                    i = i || null;
+                    t = t || document;
+                    n.push({
+                        lib: e,
+                        selector: t,
+                        options: i
+                    });
+                    if (r.length > 0) {
+                        o()
+                    }
+                },
+                logFitVidsIframe: function(e) {
+                    if (r.indexOf(e.target) == -1) {
+                        r.push(e.target)
+                    }
+                    if (n.length > 0) {
+                        o()
+                    }
+                },
+                hasFitVidsCalls: function() {
+                    return n.length > 0
+                },
+                runFitVids: function() {
+                    o()
+                },
+                documentReadyState: "loading",
+                ogReadyState: document.readyState,
+                startedScriptLoading: false,
+                loadScriptDelayed: function(e, t) {
+                    setTimeout(function() {
+                        var t = document.createElement("script");
+                        t.src = e;
+                        document.head.appendChild(t)
+                    }, t)
+                }
+            }
+        }();
+        document.write = function(e) {
+            NPh.documentWrite(document.currentScript, e)
+        };
+        document.writeln = function(e) {
+            NPh.documentWrite(document.currentScript, e + "\n")
+        };
+    </script>
+    <meta charset="UTF-8" />
+    <script id="MTU3NjEzNTM2OC4xMTA4" type="nitropack/inlinescript" class="nitropack-inline-script">
+        var bsf_ajax_url = {"url":"https:\/\/uaelementor.com\/wp-admin\/admin-ajax.php"};
+    </script>
+    <script id="MTU3NjEzNTE5Ny4xMTUy" type="nitropack/inlinescript" class="nitropack-inline-script">
+        var mashsb = {"shares":"4","round_shares":"1","animate_shares":"0","dynamic_buttons":"0","share_url":"https:\/\/uaelementor.com\/widgets\/timeline\/","title":"Timeline","image":null,"desc":"Timeline\t\t\t\t\t\t\n\t\t\t\t\tDisplay timeline charts or roadmaps with the Timeline widget of the Ultimate Addons for Elementor. With various customizations and design options you can create timelines like the ones below\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\t\tWatch Walkthrough Video\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\tContent Timeline\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tAdd date within each \u2026","hashtag":"","subscribe":"content","subscribe_url":"","activestatus":"1","singular":"1","twitter_popup":"1","refresh":"1","nonce":"96e1b299ff","postid":"33874","servertime":"1576134962","ajaxurl":"https:\/\/uaelementor.com\/wp-admin\/admin-ajax.php"};
+    </script>
+    <script id="MTU3NjEzNTg0OC4xNTgx" type="nitropack/inlinescript" class="nitropack-inline-script">
+        var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/uaelementor.com\/wp-admin\/admin-ajax.php","nonce":"d6475ef335","shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"delicious":{"title":"Delicious"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"menu_cart":{"cart_page_url":"https:\/\/uaelementor.com","checkout_page_url":"https:\/\/uaelementor.com"},"facebook_sdk":{"lang":"en_US","app_id":""}};
+    </script>
+    <script id="MTU3NjEzNTU0OS4xNjI5" type="nitropack/inlinescript" class="nitropack-inline-script">
+        var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.8.1","urls":{"assets":"https:\/\/uaelementor.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":[],"editorPreferences":[]},"post":{"id":33874,"title":"Timeline","excerpt":""}};
+    </script>
+                    
+</head>
+
+  <header class="header_area">
+    <div class="main_menu" style="background-color: white;">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container box_1620">
+          <a class="navbar-brand logo_h" href="../index.html"><img width="180px" height="auto" src="../img/icetite-bw.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav justify-content" style="padding:0%;margin:0%">
+              <li class="nav-item "><a class="nav-link" href="../index.html">Home</a></li> 
+              <li class="nav-item "><a class="nav-link" href="../authors.html">Authors</a></li> 
+              <li class="nav-item active"><a class="nav-link" href="../registration.html">Registration</a>
+                <li class="nav-item"><a class="nav-link" href="../speaker.html">Speakers</a>
+              <li class="nav-item"><a class="nav-link" href="../committee.html">Committee</a></li>
+                <li class="nav-item"><a class="nav-link" href="../Sponsorship.html" >Sponsorship</a></li> 
+                <li class="nav-item"><a class="nav-link" href="../visa.html" >Visa</a></li> 
+              <li class="nav-item"><a class="nav-link" href="../contact.html">Contact</a></li>
+            </ul>
+
+            <a href="https://vit.ac.in" target="_blank"><img width="170px" height="auto" style="margin-left:20px;" src="../img/vit_logo-2.jpg" alt=""></a></li>
+            
+            
+          </div> 
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--================Header Menu Area =================-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top" style="background-color: #40a7dc;"><icon class="ti-arrow-up"></icon></button>
+
+
+<body itemtype='https://schema.org/WebPage' style="background-color: white;" itemscope='itemscope' class="page-template-default page page-id-33874 page-child parent-pageid-25222 wp-custom-logo theme-astra woocommerce-no-js mega-menu-above-header-menu ast-desktop ast-page-builder-template ast-no-sidebar astra-2.1.3 ast-header-custom-item-inside group-blog ast-single-post ast-replace-site-logo-transparent above-header-nav-padding-support ast-sticky-main-shrink ast-sticky-custom-logo ast-primary-sticky-enabled ast-full-width-layout ast-above-mobile-menu-align-inline ast-default-menu-enable elementor-default elementor-page elementor-page-33874 astra-addon-2.1.4">
+    
+    <section id="home">
+            <div class="overlay"></div>
+              <div class="container">
+                   <div class="row">
+    
+                        <div class="col-md-12 col-sm-12">
+                             <div class="home-info">
+                                  <img src="./logo.gif">
+                                  <h1>Breakthrough on Locked Technology <br>"Uncover the Tech inside"</h1>
+                                  <div id="clockdiv">
+                                       <div>
+                                         <span class="days"></span>
+                                         <div class="smalltext">Days</div>
+                                       </div>
+                                       <div>
+                                         <span class="hours"></span>
+                                         <div class="smalltext">Hours</div>
+                                       </div>
+                                       <div>
+                                         <span class="minutes"></span>
+                                         <div class="smalltext">Minutes</div>
+                                       </div>
+                                       <div>
+                                         <span class="seconds"></span>
+                                         <div class="smalltext">Seconds</div>
+                                       </div>
+                                  </div>
+                             </div>
+                        </div>
+    
+                   </div>
+              </div>
+         </section>
+        
+        <div id="content" class="site-content">
+            <div class="ast-container">
+                <div id="primary" class="content-area primary">
+                    <main id="main" class="site-main">
+                        <article class="post-33874 page type-page status-publish ast-article-single" id="post-33874" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+                            <header class="entry-header ast-header-without-markup"> </header>
+                            <div class="entry-content clear" itemprop="text">
+                                <div data-elementor-type="wp-page" data-elementor-id="33874" class="elementor elementor-33874" data-elementor-settings="[]">
+                                    <div class="elementor-inner">
+                                        <div class="elementor-section-wrap">
+                                            
+                                            
+                                            <section class="elementor-element elementor-element-3088a931 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3088a931" data-element_type="section" id="posts_timeline" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-37e6840c elementor-column elementor-col-100 elementor-top-column" data-id="37e6840c" data-element_type="column">
+                                                            <center>
+                                                                    <hr style=" background-color: #40a7dc; margin-top: 5px;margin-right: 10%;margin-left: 10%;"><br>
+                                                            <div class="elementor-column-wrap  elementor-element-populated" style="width: 75%;">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <section class="elementor-element elementor-element-441d889 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="441d889" data-element_type="section">
+                                                                        <div class="elementor-container elementor-column-gap-default">
+                                                                            <div class="elementor-row">
+                                                                                <div class="elementor-element elementor-element-4a601a57 elementor-column elementor-col-33 elementor-inner-column" data-id="4a601a57" data-element_type="column">
+                                                                                    <div class="elementor-column-wrap">
+                                                                                        <div class="elementor-widget-wrap"> </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="elementor-element elementor-element-797dcf49 elementor-column elementor-col-33 elementor-inner-column" data-id="797dcf49" data-element_type="column">
+                                                                                    <div class="elementor-column-wrap  elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div class="elementor-element elementor-element-ae64851 elementor-widget elementor-widget-uael-infobox" data-id="ae64851" data-element_type="widget" data-widget_type="uael-infobox.default">
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="uael-module-content uael-infobox  uael-infobox-center  uael-infobox-link-type-none">
+                                                                                                        <div class="uael-infobox-left-right-wrap">
+                                                                                                            <div class="uael-infobox-content">
+                                                                                                                <div class='uael-infobox-title-wrap'>
+                                                                                                                    <h2 class="uael-infobox-title elementor-inline-editing" data-elementor-setting-key="infobox_title" data-elementor-inline-editing-toolbar="basic"><span style="color: #40a7dc;"> Hackathon Event Guidelines &<br>Timeline</span></h2></div>
+                                                                                                                <div class="uael-infobox-text-wrap">
+                                                                                                                    <div class="uael-infobox-text elementor-inline-editing" data-elementor-setting-key="infobox_description" data-elementor-inline-editing-toolbar="advanced" style="text-align: left; "><ul><li>BOLT be a 24-hours Hackathon consisting of 3 rounds.</li>
+                                                                                                                        <li>Expected turnout is more than 1000 students in terms of 3-5 members each</li>
+                                                                                                                        <li>Problem Statement will be assigned according to the theme.</li>
+                                                                                                                        <li>Teams will work according to the given statements and at the end of the first
+                                                                                                                        round, they will pitch their ideas with the abstracts to the panel. </li></ul></div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="elementor-element elementor-element-4da6b75f elementor-column elementor-col-33 elementor-inner-column" data-id="4da6b75f" data-element_type="column">
+                                                                                    <div class="elementor-column-wrap">
+                                                                                        <div class="elementor-widget-wrap"> </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                    <div class="elementor-element elementor-element-2288e618 uael-timeline--center uael-timeline-responsive-tablet uael-timeline-arrow-center elementor-widget elementor-widget-uael-timeline" data-id="2288e618" data-element_type="widget" data-widget_type="uael-timeline.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="uael-timeline-wrapper uael-timeline-node">
+                                                                                <div class="uael-timeline-main">
+                                                                                    <div class="uael-days">
+																						<div class="elementor-repeater-item-37461 uael-timeline-field animate-border out-view">
+                                                                                            <div class="uael-timeline-widget uael-timeline-right">
+                                                                                                <div class="uael-timeline-marker"> <span class="timeline-icon-new out-view-timeline-icon"> <i aria-hidden="true" class="fa fa-calendar"></i> </span> </div>
+                                                                                                <div class="uael-day-new uael-day-right">
+                                                                                                    <div class="uael-events-new">
+                                                                                                        
+                                                                                                            <div class="uael-events-inner-new" style="padding: 4%;">
+                                                                                                                <div class="uael-timeline-date-hide uael-date-inner">
+                                                                                                                    <div class="inner-date-new">
+                                                                                                                        <p>10 AM</p>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                                <div class="uael-content">
+                                                                                                                    <div class="uael-timeline-heading-text">
+                                                                                                                        <h3 class="uael-timeline-heading uael-timeline-heading uael-timeline-heading">24<sup>th</sup> February<br/></h3> </div>
+                                                                                                                    <div class="uael-timeline-desc-content">
+                                                                                                                        <p>Inauguration of BOLT Hackathon</p>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                                <div class="uael-timeline-arrow"></div>
+                                                                                                            </div>
+                                                                                                        
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="uael-timeline-date-new">
+                                                                                                    <div class="uael-date-new">
+                                                                                                        <div class="inner-date-new">
+                                                                                                            <p>10 AM</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-repeater-item-37249 uael-timeline-field animate-border out-view">
+                                                                                            <div class="uael-timeline-widget uael-timeline-left">
+                                                                                                <div class="uael-timeline-marker"> <span class="timeline-icon-new out-view-timeline-icon"> <i aria-hidden="true" class="fa fa-calendar"></i> </span> </div>
+                                                                                                <div class="uael-day-new uael-day-left">
+                                                                                                    <div class="uael-events-new">
+                                                                                                        
+                                                                                                            <div class="uael-events-inner-new" style="padding: 4%;">
+                                                                                                                <div class="uael-timeline-featured-img"> 
+                                                                                                                    <script>
+                                                                                                                        (function() {
+                                                                                                                            var e = [];
+                                                                                                                            var t = null;
+                                                                                                                            var a = {
+                                                                                                                                enabled: false,
+                                                                                                                                observeSelectors: ['[class*="slider"]', '[id*="slider"]'],
+                                                                                                                                attributes: ["src", "data-src"],
+                                                                                                                                attributeRegex: /^data:image\/.*?;nitro-empty-og-([0-9]*);base64/,
+                                                                                                                                cssUrlFuncRegex: /^url\(['|"]data:image\/.*?;nitro-empty-og-([0-9]*);base64/
+                                                                                                                            };
+                                                                                                                            var r = function() {
+                                                                                                                                var e = document.createElement("canvas");
+                                                                                                                                var t = e.getContext("2d");
+                                                                                                                                var a = {};
+                                                                                                                                return {
+                                                                                                                                    getImage: function(r, i) {
+                                                                                                                                        var n = r + "x" + i;
+                                                                                                                                        if (!a[n]) {
+                                                                                                                                            e.width = r;
+                                                                                                                                            e.height = i;
+                                                                                                                                            t.clearRect(0, 0, e.width, e.height);
+                                                                                                                                            t.fillStyle = "rgba(255, 255, 255, 0)";
+                                                                                                                                            t.fillRect(0, 0, e.width, e.height);
+                                                                                                                                            a[n] = e.toDataURL("image/png")
+                                                                                                                                        }
+                                                                                                                                        return a[n]
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }();
+                                                                                                                            var i = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+                                                                                                                            var n = function(e) {
+                                                                                                                                if (i) i(e);
+                                                                                                                                else setTimeout(e, 0)
+                                                                                                                            };
+                                                                                                                            var l = function(t, i) {
+                                                                                                                                var s;
+                                                                                                                                var u = Date.now();
+                                                                                                                                for (var o = i; o < t.length; o++) {
+                                                                                                                                    if (Date.now() - u >= 16) {
+                                                                                                                                        (function(e, t) {
+                                                                                                                                            n(function() {
+                                                                                                                                                l(e, t)
+                                                                                                                                            })
+                                                                                                                                        })(t, o);
+                                                                                                                                        return
+                                                                                                                                    }
+                                                                                                                                    s = t[o];
+                                                                                                                                    if (!s.src) {
+                                                                                                                                        var c = s.getAttribute("nitro-og-width");
+                                                                                                                                        if (c) {
+                                                                                                                                            var g = s.getAttribute("nitro-og-height");
+                                                                                                                                            s.src = r.getImage(c, g)
+                                                                                                                                        } else {
+                                                                                                                                            s.src = "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw=="
+                                                                                                                                        }
+                                                                                                                                        if (a.enabled) {
+                                                                                                                                            let t = e.length;
+                                                                                                                                            e.push(s.getAttribute("nitro-lazy-src"));
+                                                                                                                                            s.src = s.src.replace(/^data:image\/(.*?);base64/, "data:image/$1;nitro-empty-og-" + t + ";base64")
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            };
+                                                                                                                            var s = function() {
+                                                                                                                                t = new MutationObserver(u);
+                                                                                                                                let e = document.querySelectorAll(a.observeSelectors.join(","));
+                                                                                                                                for (let r = 0; r < e.length; ++r) {
+                                                                                                                                    t.observe(e[r], {
+                                                                                                                                        subtree: true,
+                                                                                                                                        childList: true,
+                                                                                                                                        attributes: true,
+                                                                                                                                        attributeFilter: a.attributes,
+                                                                                                                                        characterData: false,
+                                                                                                                                        attributeOldValue: false,
+                                                                                                                                        characterDataOldValue: false
+                                                                                                                                    })
+                                                                                                                                }
+                                                                                                                            };
+                                                                                                                            var u = function(e) {
+                                                                                                                                for (let t = 0; t < e.length; ++t) {
+                                                                                                                                    switch (e[t].type) {
+                                                                                                                                        case "attributes":
+                                                                                                                                            let r = e[t].target.getAttribute(e[t].attributeName);
+                                                                                                                                            if (!r) break;
+                                                                                                                                            let i = a.attributeRegex.exec(r);
+                                                                                                                                            if (i && i[1]) {
+                                                                                                                                                e[t].target.setAttribute(e[t].attributeName, o(parseInt(i[1])))
+                                                                                                                                            }
+                                                                                                                                            break;
+                                                                                                                                        case "childList":
+                                                                                                                                            if (e[t].addedNodes.length > 0) {
+                                                                                                                                                for (let r = 0; r < e[t].addedNodes.length; ++r) {
+                                                                                                                                                    let i = e[t].addedNodes[r];
+                                                                                                                                                    for (let e = 0; e < a.attributes.length; ++e) {
+                                                                                                                                                        let t = i.getAttribute(a.attributes[e]);
+                                                                                                                                                        if (t) {
+                                                                                                                                                            let r = a.attributeRegex.exec(t);
+                                                                                                                                                            if (r) {
+                                                                                                                                                                i.setAttribute(a.attributes[e], o(parseInt(r[1])))
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                    if (i.style.backgroundImage) {
+                                                                                                                                                        let e = a.cssUrlFuncRegex.exec(i.style.backgroundImage);
+                                                                                                                                                        if (e) {
+                                                                                                                                                            i.style.setProperty("background-image", 'url("' + o(parseInt(e[1])) + '")')
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                            break
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            };
+
+                                                                                                                            function o(t) {
+                                                                                                                                return e[t]
+                                                                                                                            }
+                                                                                                                            var c = document.querySelectorAll(".nitro-lazy-empty");
+                                                                                                                            l(c, 0);
+                                                                                                                            if (a.enabled) {
+                                                                                                                                n(s)
+                                                                                                                            }
+                                                                                                                        })();
+                                                                                                                    </script>
+                                                                                                                    <script>
+                                                                                                                        window.nitro_lazySizesConfig = window.nitro_lazySizesConfig || {};
+                                                                                                                        window.nitro_lazySizesConfig.lazyClass = "nitro-lazy";
+                                                                                                                        nitro_lazySizesConfig.srcAttr = "nitro-lazy-src";
+                                                                                                                        nitro_lazySizesConfig.srcsetAttr = "nitro-lazy-srcset";
+                                                                                                                        nitro_lazySizesConfig.expand = 10;
+                                                                                                                        nitro_lazySizesConfig.expFactor = 1;
+                                                                                                                        nitro_lazySizesConfig.hFac = 1;
+                                                                                                                        nitro_lazySizesConfig.loadMode = 1;
+                                                                                                                        nitro_lazySizesConfig.ricTimeout = 50;
+                                                                                                                        (function() {
+                                                                                                                            var e = false;
+                                                                                                                            var t = false;
+                                                                                                                            var r = {
+                                                                                                                                childList: false,
+                                                                                                                                attributes: true,
+                                                                                                                                subtree: false,
+                                                                                                                                attributeFilter: ["src"],
+                                                                                                                                attributeOldValue: true
+                                                                                                                            };
+
+                                                                                                                            function i(e) {
+                                                                                                                                e.src = e.getAttribute("nitro-og-src")
+                                                                                                                            }
+
+                                                                                                                            function a(e) {
+                                                                                                                                var t = new MutationObserver(function(t, i) {
+                                                                                                                                    t.forEach(t => {
+                                                                                                                                        var a = e.getAttribute("nitro-og-src");
+                                                                                                                                        var n = e.src.replace(t.oldValue, "");
+                                                                                                                                        if (e.src.indexOf("data:") === 0 && ["?", "&"].indexOf(n.substr(0, 1)) > -1) {
+                                                                                                                                            if (a.indexOf("?") > -1) {
+                                                                                                                                                e.setAttribute("nitro-og-src", a + "&" + n.substr(1))
+                                                                                                                                            } else {
+                                                                                                                                                e.setAttribute("nitro-og-src", a + "?" + n.substr(1))
+                                                                                                                                            }
+                                                                                                                                            i.disconnect();
+                                                                                                                                            e.src = t.oldValue;
+                                                                                                                                            i.observe(e, r)
+                                                                                                                                        }
+                                                                                                                                    })
+                                                                                                                                });
+                                                                                                                                t.observe(e, r)
+                                                                                                                            }
+                                                                                                                            window.addEventListener("NitroStylesLoaded", function() {
+                                                                                                                                e = true
+                                                                                                                            });
+                                                                                                                            window.addEventListener("load", function() {
+                                                                                                                                t = true
+                                                                                                                            });
+                                                                                                                            window.addEventListener("message", function(e) {
+                                                                                                                                if (e.data.action && e.data.action === "playBtnClicked") {
+                                                                                                                                    var t = document.getElementsByTagName("iframe");
+                                                                                                                                    for (var r = 0; r < t.length; r++) {
+                                                                                                                                        if (e.source === t[r].contentWindow) {
+                                                                                                                                            i(t[r])
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            });
+                                                                                                                            document.addEventListener("lazybeforeunveil", function(t) {
+                                                                                                                                var r = false;
+                                                                                                                                var i = t.target.getAttribute("nitro-lazy-bg");
+                                                                                                                                if (i) {
+                                                                                                                                    t.target.style.backgroundImage = "url(" + i.replace(/\(/g, "%28").replace(/\)/g, "%29") + ")";
+                                                                                                                                    r = true
+                                                                                                                                }
+                                                                                                                                var a = t.target.className.indexOf("elementor-invisible") != -1;
+                                                                                                                                if (a) {
+                                                                                                                                    r = true;
+                                                                                                                                    if (e) {
+                                                                                                                                        t.target.className = t.target.className.replace("elementor-invisible", "")
+                                                                                                                                    } else {
+                                                                                                                                        window.addEventListener("NitroStylesLoaded", function(e) {
+                                                                                                                                            return function() {
+                                                                                                                                                e.className = e.className.replace("elementor-invisible", "")
+                                                                                                                                            }
+                                                                                                                                        }(t.target))
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                                if (!r) {
+                                                                                                                                    var n = t.target.tagName.toLowerCase();
+                                                                                                                                    if (n !== "img" && n !== "iframe") {
+                                                                                                                                        t.target.querySelectorAll("img[nitro-lazy-src],img[nitro-lazy-srcset]").forEach(function(e) {
+                                                                                                                                            e.classList.add("nitro-lazy")
+                                                                                                                                        })
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            });
+                                                                                                                            document.querySelectorAll("iframe[nitro-og-src]").forEach(a)
+                                                                                                                        })();
+                                                                                                                    </script>
+                                                                                                                    <script>
+                                                                                                                        /*! lazysizes - v5.1.2 */ ! function(a, b) {
+                                                                                                                            var c = b(a, a.document);
+                                                                                                                            a.lazySizes = c, "object" == typeof module && module.exports && (module.exports = c)
+                                                                                                                        }("undefined" != typeof window ? window : {}, function(a, b) {
+                                                                                                                            "use strict";
+                                                                                                                            var c, d;
+                                                                                                                            if (function() {
+                                                                                                                                    var b, c = {
+                                                                                                                                        lazyClass: "lazyload",
+                                                                                                                                        loadedClass: "lazyloaded",
+                                                                                                                                        loadingClass: "lazyloading",
+                                                                                                                                        preloadClass: "lazypreload",
+                                                                                                                                        errorClass: "lazyerror",
+                                                                                                                                        autosizesClass: "lazyautosizes",
+                                                                                                                                        srcAttr: "data-src",
+                                                                                                                                        srcsetAttr: "data-srcset",
+                                                                                                                                        sizesAttr: "data-sizes",
+                                                                                                                                        minSize: 40,
+                                                                                                                                        customMedia: {},
+                                                                                                                                        init: !0,
+                                                                                                                                        expFactor: 1.5,
+                                                                                                                                        hFac: .8,
+                                                                                                                                        loadMode: 2,
+                                                                                                                                        loadHidden: !0,
+                                                                                                                                        ricTimeout: 0,
+                                                                                                                                        throttleDelay: 125
+                                                                                                                                    };
+                                                                                                                                    d = a.nitro_lazySizesConfig || a.nitro_lazysizesConfig || {};
+                                                                                                                                    for (b in c) b in d || (d[b] = c[b])
+                                                                                                                                }(), !b || !b.getElementsByClassName) return {
+                                                                                                                                init: function() {},
+                                                                                                                                cfg: d,
+                                                                                                                                noSupport: !0
+                                                                                                                            };
+                                                                                                                            var e = b.documentElement,
+                                                                                                                                f = a.Date,
+                                                                                                                                g = a.HTMLPictureElement,
+                                                                                                                                h = "addEventListener",
+                                                                                                                                i = "getAttribute",
+                                                                                                                                j = a[h],
+                                                                                                                                k = a.setTimeout,
+                                                                                                                                l = a.requestAnimationFrame || k,
+                                                                                                                                m = a.requestIdleCallback,
+                                                                                                                                n = /^picture$/i,
+                                                                                                                                o = ["load", "error", "lazyincluded", "_lazyloaded"],
+                                                                                                                                p = {},
+                                                                                                                                q = Array.prototype.forEach,
+                                                                                                                                r = function(a, b) {
+                                                                                                                                    return p[b] || (p[b] = new RegExp("(\\s|^)" + b + "(\\s|$)")), p[b].test(a[i]("class") || "") && p[b]
+                                                                                                                                },
+                                                                                                                                s = function(a, b) {
+                                                                                                                                    r(a, b) || a.setAttribute("class", (a[i]("class") || "").trim() + " " + b)
+                                                                                                                                },
+                                                                                                                                t = function(a, b) {
+                                                                                                                                    var c;
+                                                                                                                                    (c = r(a, b)) && a.setAttribute("class", (a[i]("class") || "").replace(c, " "))
+                                                                                                                                },
+                                                                                                                                u = function(a, b, c) {
+                                                                                                                                    var d = c ? h : "removeEventListener";
+                                                                                                                                    c && u(a, b), o.forEach(function(c) {
+                                                                                                                                        a[d](c, b)
+                                                                                                                                    })
+                                                                                                                                },
+                                                                                                                                v = function(a, d, e, f, g) {
+                                                                                                                                    var h = b.createEvent("Event");
+                                                                                                                                    return e || (e = {}), e.instance = c, h.initEvent(d, !f, !g), h.detail = e, a.dispatchEvent(h), h
+                                                                                                                                },
+                                                                                                                                w = function(b, c) {
+                                                                                                                                    var e;
+                                                                                                                                    !g && (e = a.picturefill || d.pf) ? (c && c.src && !b[i]("srcset") && b.setAttribute("srcset", c.src), e({
+                                                                                                                                        reevaluate: !0,
+                                                                                                                                        elements: [b]
+                                                                                                                                    })) : c && c.src && (b.src = c.src)
+                                                                                                                                },
+                                                                                                                                x = function(a, b) {
+                                                                                                                                    return (getComputedStyle(a, null) || {})[b]
+                                                                                                                                },
+                                                                                                                                y = function(a, b, c) {
+                                                                                                                                    for (c = c || a.offsetWidth; c < d.minSize && b && !a._lazysizesWidth;) c = b.offsetWidth, b = b.parentNode;
+                                                                                                                                    return c
+                                                                                                                                },
+                                                                                                                                z = function() {
+                                                                                                                                    var a, c, d = [],
+                                                                                                                                        e = [],
+                                                                                                                                        f = d,
+                                                                                                                                        g = function() {
+                                                                                                                                            var b = f;
+                                                                                                                                            for (f = d.length ? e : d, a = !0, c = !1; b.length;) b.shift()();
+                                                                                                                                            a = !1
+                                                                                                                                        },
+                                                                                                                                        h = function(d, e) {
+                                                                                                                                            a && !e ? d.apply(this, arguments) : (f.push(d), c || (c = !0, (b.hidden ? k : l)(g)))
+                                                                                                                                        };
+                                                                                                                                    return h._lsFlush = g, h
+                                                                                                                                }(),
+                                                                                                                                A = function(a, b) {
+                                                                                                                                    return b ? function() {
+                                                                                                                                        z(a)
+                                                                                                                                    } : function() {
+                                                                                                                                        var b = this,
+                                                                                                                                            c = arguments;
+                                                                                                                                        z(function() {
+                                                                                                                                            a.apply(b, c)
+                                                                                                                                        })
+                                                                                                                                    }
+                                                                                                                                },
+                                                                                                                                B = function(a) {
+                                                                                                                                    var b, c = 0,
+                                                                                                                                        e = d.throttleDelay,
+                                                                                                                                        g = d.ricTimeout,
+                                                                                                                                        h = function() {
+                                                                                                                                            b = !1, c = f.now(), a()
+                                                                                                                                        },
+                                                                                                                                        i = m && g > 49 ? function() {
+                                                                                                                                            m(h, {
+                                                                                                                                                timeout: g
+                                                                                                                                            }), g !== d.ricTimeout && (g = d.ricTimeout)
+                                                                                                                                        } : A(function() {
+                                                                                                                                            k(h)
+                                                                                                                                        }, !0);
+                                                                                                                                    return function(a) {
+                                                                                                                                        var d;
+                                                                                                                                        (a = !0 === a) && (g = 33), b || (b = !0, d = e - (f.now() - c), d < 0 && (d = 0), a || d < 9 ? i() : k(i, d))
+                                                                                                                                    }
+                                                                                                                                },
+                                                                                                                                C = function(a) {
+                                                                                                                                    var b, c, d = 99,
+                                                                                                                                        e = function() {
+                                                                                                                                            b = null, a()
+                                                                                                                                        },
+                                                                                                                                        g = function() {
+                                                                                                                                            var a = f.now() - c;
+                                                                                                                                            a < d ? k(g, d - a) : (m || e)(e)
+                                                                                                                                        };
+                                                                                                                                    return function() {
+                                                                                                                                        c = f.now(), b || (b = k(g, d))
+                                                                                                                                    }
+                                                                                                                                },
+                                                                                                                                D = function() {
+                                                                                                                                    var g, l, m, o, p, y, D, F, G, H, I, J, K = /^img$/i,
+                                                                                                                                        L = /^iframe$/i,
+                                                                                                                                        M = "onscroll" in a && !/(gle|ing)bot/.test(navigator.userAgent),
+                                                                                                                                        N = 0,
+                                                                                                                                        O = 0,
+                                                                                                                                        P = 0,
+                                                                                                                                        Q = -1,
+                                                                                                                                        R = function(a) {
+                                                                                                                                            P--, (!a || P < 0 || !a.target) && (P = 0)
+                                                                                                                                        },
+                                                                                                                                        S = function(a) {
+                                                                                                                                            return null == J && (J = "hidden" == x(b.body, "visibility")), J || !("hidden" == x(a.parentNode, "visibility") && "hidden" == x(a, "visibility"))
+                                                                                                                                        },
+                                                                                                                                        T = function(a, c) {
+                                                                                                                                            var d, f = a,
+                                                                                                                                                g = S(a);
+                                                                                                                                            for (F -= c, I += c, G -= c, H += c; g && (f = f.offsetParent) && f != b.body && f != e;)(g = (x(f, "opacity") || 1) > 0) && "visible" != x(f, "overflow") && (d = f.getBoundingClientRect(), g = H > d.left && G < d.right && I > d.top - 1 && F < d.bottom + 1);
+                                                                                                                                            return g
+                                                                                                                                        },
+                                                                                                                                        U = function() {
+                                                                                                                                            var a, f, h, j, k, m, n, p, q, r, s, t, u = c.elements;
+                                                                                                                                            if ((o = d.loadMode) && P < 8 && (a = u.length)) {
+                                                                                                                                                for (f = 0, Q++; f < a; f++)
+                                                                                                                                                    if (u[f] && !u[f]._lazyRace)
+                                                                                                                                                        if (!M || c.prematureUnveil && c.prematureUnveil(u[f])) aa(u[f]);
+                                                                                                                                                        else if ((p = u[f][i]("data-expand")) && (m = 1 * p) || (m = O), r || (r = !d.expand || d.expand < 1 ? e.clientHeight > 500 && e.clientWidth > 500 ? 500 : 370 : d.expand, c._defEx = r, s = r * d.expFactor, t = d.hFac, J = null, O < s && P < 1 && Q > 2 && o > 2 && !b.hidden ? (O = s, Q = 0) : O = o > 1 && Q > 1 && P < 6 ? r : N), q !== m && (y = innerWidth + m * t, D = innerHeight + m, n = -1 * m, q = m), h = u[f].getBoundingClientRect(), (I = h.bottom) >= n && (F = h.top) <= D && (H = h.right) >= n * t && (G = h.left) <= y && (I || H || G || F) && (d.loadHidden || S(u[f])) && (l && P < 3 && !p && (o < 3 || Q < 4) || T(u[f], m))) {
+                                                                                                                                                    if (aa(u[f]), k = !0, P > 9) break
+                                                                                                                                                } else !k && l && !j && P < 4 && Q < 4 && o > 2 && (g[0] || d.preloadAfterLoad) && (g[0] || !p && (I || H || G || F || "auto" != u[f][i](d.sizesAttr))) && (j = g[0] || u[f]);
+                                                                                                                                                j && !k && aa(j)
+                                                                                                                                            }
+                                                                                                                                        },
+                                                                                                                                        V = B(U),
+                                                                                                                                        W = function(a) {
+                                                                                                                                            var b = a.target;
+                                                                                                                                            if (b._lazyCache) return void delete b._lazyCache;
+                                                                                                                                            R(a), s(b, d.loadedClass), t(b, d.loadingClass), u(b, Y), v(b, "lazyloaded")
+                                                                                                                                        },
+                                                                                                                                        X = A(W),
+                                                                                                                                        Y = function(a) {
+                                                                                                                                            X({
+                                                                                                                                                target: a.target
+                                                                                                                                            })
+                                                                                                                                        },
+                                                                                                                                        Z = function(a, b) {
+                                                                                                                                            try {
+                                                                                                                                                a.contentWindow.location.replace(b)
+                                                                                                                                            } catch (c) {
+                                                                                                                                                a.src = b
+                                                                                                                                            }
+                                                                                                                                        },
+                                                                                                                                        $ = function(a) {
+                                                                                                                                            var b, c = a[i](d.srcsetAttr);
+                                                                                                                                            (b = d.customMedia[a[i]("data-media") || a[i]("media")]) && a.setAttribute("media", b), c && a.setAttribute("srcset", c)
+                                                                                                                                        },
+                                                                                                                                        _ = A(function(a, b, c, e, f) {
+                                                                                                                                            var g, h, j, l, o, p;
+                                                                                                                                            (o = v(a, "lazybeforeunveil", b)).defaultPrevented || (e && (c ? s(a, d.autosizesClass) : a.setAttribute("sizes", e)), h = a[i](d.srcsetAttr), g = a[i](d.srcAttr), f && (j = a.parentNode, l = j && n.test(j.nodeName || "")), p = b.firesLoad || "src" in a && (h || g || l), o = {
+                                                                                                                                                target: a
+                                                                                                                                            }, s(a, d.loadingClass), p && (clearTimeout(m), m = k(R, 2500), u(a, Y, !0)), l && q.call(j.getElementsByTagName("source"), $), h ? a.setAttribute("srcset", h) : g && !l && (L.test(a.nodeName) ? Z(a, g) : a.src = g), f && (h || l) && w(a, {
+                                                                                                                                                src: g
+                                                                                                                                            })), a._lazyRace && delete a._lazyRace, t(a, d.lazyClass), z(function() {
+                                                                                                                                                var b = a.complete && a.naturalWidth > 1;
+                                                                                                                                                p && !b || (b && s(a, "ls-is-cached"), W(o), a._lazyCache = !0, k(function() {
+                                                                                                                                                    "_lazyCache" in a && delete a._lazyCache
+                                                                                                                                                }, 9)), "lazy" == a.loading && P--
+                                                                                                                                            }, !0)
+                                                                                                                                        }),
+                                                                                                                                        aa = function(a) {
+                                                                                                                                            if (!a._lazyRace) {
+                                                                                                                                                var b, c = K.test(a.nodeName),
+                                                                                                                                                    e = c && (a[i](d.sizesAttr) || a[i]("sizes")),
+                                                                                                                                                    f = "auto" == e;
+                                                                                                                                                (!f && l || !c || !a[i]("src") && !a.srcset || a.complete || r(a, d.errorClass) || !r(a, d.lazyClass)) && (b = v(a, "lazyunveilread").detail, f && E.updateElem(a, !0, a.offsetWidth), a._lazyRace = !0, P++, _(a, b, f, e, c))
+                                                                                                                                            }
+                                                                                                                                        },
+                                                                                                                                        ba = C(function() {
+                                                                                                                                            d.loadMode = 3, V()
+                                                                                                                                        }),
+                                                                                                                                        ca = function() {
+                                                                                                                                            3 == d.loadMode && (d.loadMode = 2), ba()
+                                                                                                                                        },
+                                                                                                                                        da = function() {
+                                                                                                                                            if (!l) {
+                                                                                                                                                if (f.now() - p < 999) return void k(da, 999);
+                                                                                                                                                l = !0, d.loadMode = 3, V(), j("scroll", ca, !0)
+                                                                                                                                            }
+                                                                                                                                        };
+                                                                                                                                    return {
+                                                                                                                                        _: function() {
+                                                                                                                                            p = f.now(), c.elements = b.getElementsByClassName(d.lazyClass), g = b.getElementsByClassName(d.lazyClass + " " + d.preloadClass), j("scroll", V, !0), j("resize", V, !0), a.MutationObserver ? new MutationObserver(V).observe(e, {
+                                                                                                                                                childList: !0,
+                                                                                                                                                subtree: !0,
+                                                                                                                                                attributes: !0
+                                                                                                                                            }) : (e[h]("DOMNodeInserted", V, !0), e[h]("DOMAttrModified", V, !0), setInterval(V, 999)), j("hashchange", V, !0), ["focus", "mouseover", "click", "load", "transitionend", "animationend"].forEach(function(a) {
+                                                                                                                                                b[h](a, V, !0)
+                                                                                                                                            }), /d$|^c/.test(b.readyState) ? da() : (j("load", da), b[h]("DOMContentLoaded", V), k(da, 2e4)), c.elements.length ? (U(), z._lsFlush()) : V()
+                                                                                                                                        },
+                                                                                                                                        checkElems: V,
+                                                                                                                                        unveil: aa,
+                                                                                                                                        _aLSL: ca
+                                                                                                                                    }
+                                                                                                                                }(),
+                                                                                                                                E = function() {
+                                                                                                                                    var a, c = A(function(a, b, c, d) {
+                                                                                                                                            var e, f, g;
+                                                                                                                                            if (a._lazysizesWidth = d, d += "px", a.setAttribute("sizes", d), n.test(b.nodeName || ""))
+                                                                                                                                                for (e = b.getElementsByTagName("source"), f = 0, g = e.length; f < g; f++) e[f].setAttribute("sizes", d);
+                                                                                                                                            c.detail.dataAttr || w(a, c.detail)
+                                                                                                                                        }),
+                                                                                                                                        e = function(a, b, d) {
+                                                                                                                                            var e, f = a.parentNode;
+                                                                                                                                            f && (d = y(a, f, d), e = v(a, "lazybeforesizes", {
+                                                                                                                                                width: d,
+                                                                                                                                                dataAttr: !!b
+                                                                                                                                            }), e.defaultPrevented || (d = e.detail.width) && d !== a._lazysizesWidth && c(a, f, e, d))
+                                                                                                                                        },
+                                                                                                                                        f = function() {
+                                                                                                                                            var b, c = a.length;
+                                                                                                                                            if (c)
+                                                                                                                                                for (b = 0; b < c; b++) e(a[b])
+                                                                                                                                        },
+                                                                                                                                        g = C(f);
+                                                                                                                                    return {
+                                                                                                                                        _: function() {
+                                                                                                                                            a = b.getElementsByClassName(d.autosizesClass), j("resize", g)
+                                                                                                                                        },
+                                                                                                                                        checkElems: g,
+                                                                                                                                        updateElem: e
+                                                                                                                                    }
+                                                                                                                                }(),
+                                                                                                                                F = function() {
+                                                                                                                                    !F.i && b.getElementsByClassName && (F.i = !0, E._(), D._())
+                                                                                                                                };
+                                                                                                                            return k(function() {
+                                                                                                                                d.init && F()
+                                                                                                                            }), c = {
+                                                                                                                                cfg: d,
+                                                                                                                                autoSizer: E,
+                                                                                                                                loader: D,
+                                                                                                                                init: F,
+                                                                                                                                uP: w,
+                                                                                                                                aC: s,
+                                                                                                                                rC: t,
+                                                                                                                                hC: r,
+                                                                                                                                fire: v,
+                                                                                                                                gW: y,
+                                                                                                                                rAF: z
+                                                                                                                            }
+                                                                                                                        });
+                                                                                                                    </script>
+                                                                                                                </div>
+                                                                                                                <div class="uael-timeline-date-hide uael-date-inner">
+                                                                                                                    <div class="inner-date-new">
+                                                                                                                        <p>12 PM - 2 PM</p>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                                <div class="uael-content" >
+                                                                                                                    <div class="uael-timeline-heading-text">
+                                                                                                                        <h3 class="uael-timeline-heading uael-timeline-heading uael-timeline-heading uael-timeline-heading">Lunch Break<br/></h3> </div>                                                                                                                   
+                                                                                                                </div>
+                                                                                                                <div class="uael-timeline-arrow"></div>
+                                                                                                            </div>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="uael-timeline-date-new">
+                                                                                                    <div class="uael-date-new">
+                                                                                                        <div class="inner-date-new">
+                                                                                                            <p>12 PM - 2 PM</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+																						<div class="elementor-repeater-item-39014 uael-timeline-field animate-border out-view">
+                                                                                            <div class="uael-timeline-widget uael-timeline-right">
+                                                                                                <div class="uael-timeline-marker"> <span class="timeline-icon-new out-view-timeline-icon"> <i aria-hidden="true" class="fa fa-calendar"></i> </span> </div>
+                                                                                                <div class="uael-day-new uael-day-right">
+                                                                                                    <div class="uael-events-new">
+                                                                                                        
+                                                                                                            <div class="uael-events-inner-new" style="padding: 4%;">
+                                                                                                                <div class="uael-timeline-date-hide uael-date-inner">
+                                                                                                                    
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <div class="uael-content">
+                                                                                                                    <div class="uael-timeline-heading-text">
+                                                                                                                        <h3 class="uael-timeline-heading">Round 1<br/></h3> </div>                                                                                                                   
+                                                                                                                </div>
+                                                                                                                <div class="uael-timeline-arrow"></div>
+                                                                                                            </div>
+                                                                                                        
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="uael-timeline-date-new">
+                                                                                                    <div class="uael-date-new">
+                                                                                                        <div class="inner-date-new">
+                                                                                                            <p>2 PM - 5 PM</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-repeater-item-37356 uael-timeline-field animate-border out-view">
+                                                                                            <div class="uael-timeline-widget uael-timeline-left">
+                                                                                                <div class="uael-timeline-marker"> <span class="timeline-icon-new out-view-timeline-icon"> <i aria-hidden="true" class="fa fa-calendar"></i> </span> </div>
+                                                                                                <div class="uael-day-new uael-day-left">
+                                                                                                    <div class="uael-events-new">
+                                                                                                        
+                                                                                                            <div class="uael-events-inner-new" style="padding: 4%;">
+                                                                                                                
+                                                                                                                <div class="uael-content">
+                                                                                                                    <div class="uael-timeline-heading-text">
+                                                                                                                        <h3 class="uael-timeline-heading uael-timeline-heading">Evaluation<br/></h3> </div>
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <div class="uael-timeline-arrow"></div>
+                                                                                                            </div>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="uael-timeline-date-new">
+                                                                                                    <div class="uael-date-new">
+                                                                                                        <div class="inner-date-new">
+                                                                                                            <p>5 PM - 8 PM</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-repeater-item-39014 uael-timeline-field animate-border out-view">
+                                                                                            <div class="uael-timeline-widget uael-timeline-right">
+                                                                                                <div class="uael-timeline-marker"> <span class="timeline-icon-new out-view-timeline-icon"> <i aria-hidden="true" class="fa fa-calendar"></i> </span> </div>
+                                                                                                <div class="uael-day-new uael-day-right">
+                                                                                                    <div class="uael-events-new">
+                                                                                                        
+                                                                                                            <div class="uael-events-inner-new" style="padding: 4%;">
+                                                                                                                <div class="uael-timeline-date-hide uael-date-inner">
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <div class="uael-content">
+                                                                                                                    <div class="uael-timeline-heading-text">
+                                                                                                                        <h3 class="uael-timeline-heading">Dinner For Participants<br/></h3> </div>
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <div class="uael-timeline-arrow"></div>
+                                                                                                            </div>
+                                                                                                        
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="uael-timeline-date-new">
+                                                                                                    <div class="uael-date-new">
+                                                                                                        <div class="inner-date-new">
+                                                                                                            <p>8 PM - 9 PM</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-repeater-item-37356 uael-timeline-field animate-border out-view">
+                                                                                            <div class="uael-timeline-widget uael-timeline-left">
+                                                                                                <div class="uael-timeline-marker"> <span class="timeline-icon-new out-view-timeline-icon"> <i aria-hidden="true" class="fa fa-calendar"></i> </span> </div>
+                                                                                                <div class="uael-day-new uael-day-left">
+                                                                                                    <div class="uael-events-new">
+                                                                                                       
+                                                                                                            <div class="uael-events-inner-new" style="padding: 4%;">
+                                                                                                                <div class="uael-timeline-date-hide uael-date-inner">
+                                                                                                                   
+                                                                                                                </div>
+                                                                                                                <div class="uael-content">
+                                                                                                                    <div class="uael-timeline-heading-text">
+                                                                                                                        <h3 class="uael-timeline-heading uael-timeline-heading">Round 2<br/></h3> </div>
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <div class="uael-timeline-arrow"></div>
+                                                                                                            </div>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="uael-timeline-date-new">
+                                                                                                    <div class="uael-date-new">
+                                                                                                        <div class="inner-date-new">
+                                                                                                            <p>9 PM</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-repeater-item-39014 uael-timeline-field animate-border out-view">
+                                                                                            <div class="uael-timeline-widget uael-timeline-right">
+                                                                                                <div class="uael-timeline-marker"> <span class="timeline-icon-new out-view-timeline-icon"> <i aria-hidden="true" class="fa fa-calendar"></i> </span> </div>
+                                                                                                <div class="uael-day-new uael-day-right">
+                                                                                                    <div class="uael-events-new">
+                                                                                                        
+                                                                                                            <div class="uael-events-inner-new" style="padding: 4%;">
+                                                                                                                <div class="uael-timeline-date-hide uael-date-inner">
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <div class="uael-content">
+                                                                                                                    <div class="uael-timeline-heading-text">
+                                                                                                                        <h3 class="uael-timeline-heading">25 February<br/></h3> </div>
+                                                                                                                    <div class="uael-timeline-desc-content">
+                                                                                                                        <p>Round 2 Evaluation</p>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                                <div class="uael-timeline-arrow"></div>
+                                                                                                            </div>
+                                                                                                        
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="uael-timeline-date-new">
+                                                                                                    <div class="uael-date-new">
+                                                                                                        5 AM - 7 AM
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-repeater-item-37356 uael-timeline-field animate-border out-view">
+                                                                                            <div class="uael-timeline-widget uael-timeline-left">
+                                                                                                <div class="uael-timeline-marker"> <span class="timeline-icon-new out-view-timeline-icon"> <i aria-hidden="true" class="fa fa-calendar"></i> </span> </div>
+                                                                                                <div class="uael-day-new uael-day-left">
+                                                                                                    <div class="uael-events-new">
+                                                                                                        
+                                                                                                            <div class="uael-events-inner-new" style="padding: 4%;">
+                                                                                                                <div class="uael-timeline-date-hide uael-date-inner">
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <div class="uael-content">
+                                                                                                                    <div class="uael-timeline-heading-text">
+                                                                                                                        <h3 class="uael-timeline-heading uael-timeline-heading">Breakfast<br/></h3> </div>
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <div class="uael-timeline-arrow"></div>
+                                                                                                            </div>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="uael-timeline-date-new">
+                                                                                                    <div class="uael-date-new">
+                                                                                                        <div class="inner-date-new">
+                                                                                                            <p>7 AM - 9 AM </p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-repeater-item-39014 uael-timeline-field animate-border out-view">
+                                                                                            <div class="uael-timeline-widget uael-timeline-right">
+                                                                                                <div class="uael-timeline-marker"> <span class="timeline-icon-new out-view-timeline-icon"> <i aria-hidden="true" class="fa fa-calendar"></i> </span> </div>
+                                                                                                <div class="uael-day-new uael-day-right">
+                                                                                                    <div class="uael-events-new">
+                                                                                                        
+                                                                                                            <div class="uael-events-inner-new" style="padding: 4%;">
+                                                                                                                <div class="uael-timeline-date-hide uael-date-inner">
+                                                                                                                   
+                                                                                                                </div>
+                                                                                                                <div class="uael-content">
+                                                                                                                    <div class="uael-timeline-heading-text">
+                                                                                                                        <h3 class="uael-timeline-heading">Final Round<br/></h3> </div>
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                              
+                                                                                                            </div>
+																											<div class="uael-timeline-arrow"></div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="uael-timeline-date-new">
+                                                                                                    <div class="uael-date-new">
+                                                                                                        <div class="inner-date-new">
+                                                                                                            <p>9 AM - 12 PM</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="elementor-repeater-item-37356 uael-timeline-field animate-border out-view">
+                                                                                            <div class="uael-timeline-widget uael-timeline-left">
+                                                                                                <div class="uael-timeline-marker"> <span class="timeline-icon-new out-view-timeline-icon"> <i aria-hidden="true" class="fa fa-calendar"></i> </span> </div>
+                                                                                                <div class="uael-day-new uael-day-left">
+                                                                                                    <div class="uael-events-new">
+                                                                                                        
+                                                                                                            <div class="uael-events-inner-new" style="padding: 4%;">
+                                                                                                                
+                                                                                                                <div class="uael-content">
+                                                                                                                    <div class="uael-timeline-heading-text">
+                                                                                                                        <h3 class="uael-timeline-heading uael-timeline-heading">Lunch Break<br/></h3> </div>
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <div class="uael-timeline-arrow"></div>
+                                                                                                            </div>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="uael-timeline-date-new">
+                                                                                                    <div class="uael-date-new">
+                                                                                                        <div class="inner-date-new">
+                                                                                                            <p>12 PM - 2 PM</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+																						
+																						</div>
+																						<div class="elementor-repeater-item-39014 uael-timeline-field animate-border out-view">
+                                                                                            <div class="uael-timeline-widget uael-timeline-right">
+                                                                                                <div class="uael-timeline-marker"> <span class="timeline-icon-new out-view-timeline-icon"> <i aria-hidden="true" class="fa fa-calendar"></i> </span> </div>
+                                                                                                <div class="uael-day-new uael-day-right">
+                                                                                                    <div class="uael-events-new">
+                                                                                                        
+                                                                                                            <div class="uael-events-inner-new" style="padding: 4%;">
+                                                                                                                
+                                                                                                                <div class="uael-content">
+                                                                                                                    <div class="uael-timeline-heading-text">
+                                                                                                                        <h3 class="uael-timeline-heading">Final Presentation<br/></h3> </div>
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <div class="uael-timeline-arrow"></div>
+                                                                                                            </div>
+                                                                                                        
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="uael-timeline-date-new">
+                                                                                                    <div class="uael-date-new">
+                                                                                                        <div class="inner-date-new">
+                                                                                                            <p>2 PM - 5 PM</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        
+                                                                                    </div>
+                                                                                    <div class="uael-timeline__line">
+                                                                                        <div class="uael-timeline__line__inner"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </center>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            
+                                        </div>
+                                    </div>
+                        </article>
+                    </main>
+                </div>
+            </div>
+        </div>
+        
+
+        <hr style=" background-color: #40a7dc; margin-top: 5px;margin-right: 20%;margin-left: 20%;">
+
+        <section class="section-margin" style="margin: 50px" >
+        <div class="container" >
+                <div class="row">
+                    <div class="col-sm-3 col-xs-12" >
+                        <div class="sbox">
+                              <h3  style="color: #3b1d82">Dr. Raija Halonen</h3>
+                          <p>Faculty of Information Technology and Electrical Engineering.<br><b>University of Oulu, Finland</b></p>
+                        </div>
+                    </div> 
+                </div>
+        </div>
+        </section>
+
+
+
+        <section class="section-padding--small sponsor-bg">
+                <div class="container">
+                  
+            
+                  <div class="sponsor-wrapper sponsor-wrapper--small">
+                    
+            
+                    <h3 class="sponsor-title mb-5">Technical Co-sponsors</h3>
+                    
+                    <div class="row">
+                      <div class="col-sm-6 col-lg-6 mb-3 mb-lg-0">
+                        <div class="sponsor-single">
+                          <img width="250px" height="auto"  src="../img/home/comosc madras logo.png" alt="">
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-6 mb-3 mb-lg-0">
+                        <div class="sponsor-single">
+                          <img width="120px" height="auto"  src="../img/home/mas_computer_logo.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+            <br>
+            
+                    <h3 class="sponsor-title mb-5">Supported by</h3>
+                    <div class="row">
+                            <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
+                              <div class="sponsor-single">
+                                <img width="250px" height="auto"  src="../img/home/IEEE SSIT logo.png" alt="">
+                              </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
+                              <div class="sponsor-single">
+                                <img width="180px" height="auto"  src="../img/home/ias.png" alt="">
+                              </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
+                              <div class="sponsor-single">
+                                <img width="250px" height="auto"  src="../img/home/IEEE NPSS logo.png" alt="">
+                              </div>
+                            </div>
+                            
+                            
+                    </div>
+            
+                  </div>   
+                  </div>
+                </div>
+              </section>
+            
+              <!--================ Sponsor section End =================-->
+            
+            
+            
+            
+            
+            
+              <!-- ================ start footer Area ================= -->
+              <footer class="footer-area" style="background-color: #12252c;">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4  col-md-6 col-sm-6">
+                      <div class="single-footer-widget">
+                        <h6>ic-ETITE'20</h6>
+                        <img width="200px" height="auto" src="../img/icetite.png">
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="single-footer-widget">
+                        <h6>Address</h6>
+                        <div class="row">
+                          <div class="col">
+                            <ul>
+                              <li><a href="https://vit.ac.in" target="_blank">Vellore Institute of Technology, Vellore, Tamil Nadu, India. 632014.</a></li>
+                              
+                            </ul>
+                          </div>
+                                                                  
+                        </div>							
+                      </div>
+                    </div>							
+                    <div class="col-lg-4  col-md-6 col-sm-6">
+                      <div class="single-footer-widget">
+                          <a href="../BOLT final.pdf" download>
+                            <h6 style="color: #40a7dc">Download Bolt Brochure</h6>
+                          </a>
+                          <br>
+                          
+                                                        
+                        <div id="mc_embed_signup">
+                          
+                        </div>
+                      </div>
+                    </div>
+                                            
+                  </div>
+                </div>
+                <div class="footer-bottom">
+                  <div class="container">
+                    <div class="row align-items-center">
+                      <p class="col-lg-8 col-sm-12 footer-text m-0 text-center text-lg-left"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | ic-ETITE'20</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                      <div class="col-lg-4 col-sm-12 footer-social text-center text-lg-right">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+              <!-- ================ End footer Area ================= -->
+            
+            
+            
+            
+              <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+              <script src="../vendors/bootstrap/bootstrap.bundle.min.js"></script>
+              <script src="../vendors/owl-carousel/owl.carousel.min.js"></script>
+              <script src="../vendors/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+              <script src="../js/jquery.ajaxchimp.min.js"></script>
+              <script src="../js/mail-script.js"></script>
+              <script src="../js/countdown.js"></script>
+              <script src="../js/jquery.magnific-popup.min.js"></script>	
+              <script src="../js/main.js"></script>
+            
+            
+            </script>
+
+
+
+
+    <script type="text/html" id="rs-tmpl">
+        <li id="rs-item-<%= post.id %>" class="rs-item">
+            <a href="<%= post.link %>" target="_blank" class="rs-link">
+                <div class="rs-item-title-wrap">
+                    <span class="rs-item-title"><%= post.title.rendered %></span>
+                </div>
+            </a>
+        </li>
+    </script>
+    
+    
+    <script>
+        NPRL.registerInlineScript("MTU3NjEzNTk2OC4wNTg5", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UazJPQzR3TlRnNSJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTgyMy4wNzIx", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UZ3lNeTR3TnpJeCJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTE5NS4wODIz", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5URTVOUzR3T0RJeiJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTI5NS4wODU0", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5USTVOUzR3T0RVMCJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTM0OS4wODc2", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UTTBPUzR3T0RjMiJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-4a5f6b9f44ddd1b0dbd5d050dc4ce3eb.jquery.js", "MTU3NjEzNTY1Ny4wNjI2", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UWTFOeTR3TmpJMiJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-330ac2af8b164c82b519b20e31e59cc7.jquery-migrate.min.js", "MTU3NjEzNTQ2My4wNjU=", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UUTJNeTR3TmpVPSJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTQ0Mi4wOTA0", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UUTBNaTR3T1RBMCJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-1102675f8c58fe775275efbc5bd", "MTU3NjEzNTI5My4wNjY5", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5USTVNeTR3TmpZNSJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTIwNy4xMDIx", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5USXdOeTR4TURJeCJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTkxNC4xMDU=", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsidHlwZSI6InRleHRcL2phdmFzY3JpcHQiLCJpZCI6Ik1UVTNOakV6TlRreE5DNHhNRFU9In19");
+        NPRL.registerScript("css&js/nitro-min-de5465280f7374c9e3d10dba8c0652a3.zebra_tooltips", "MTU3NjEzNTEzMy4wNjg5", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5URXpNeTR3TmpnNSJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNDk3OS4xMDc4", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5EazNPUzR4TURjNCJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-4c715fc6d6093d42d209b7767647b52f.style.m", "MTU3NjEzNTkwMS4wNzA4", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5Ua3dNUzR3TnpBNCJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-8a5471f88ca9c58e18cea05ebc9fe21a.jquery.lives", "MTU3NjEzNTE3OC4wNzM=", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5URTNPQzR3TnpNPSJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTM2OC4xMTA4", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UTTJPQzR4TVRBNCJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-8a5471f88ca9c58e18cea05ebc9fe21a.searchbox-sc", "MTU3NjEzNTg2OS4wNzQ4", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UZzJPUzR3TnpRNCJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTc4OC4xMTM=", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UYzRPQzR4TVRNPSJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-b62d346c765c66d98d0b502d05b08840.scri", "MTU3NjEzNTU3OS4wNzY2", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UVTNPUzR3TnpZMiJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTE5Ny4xMTUy", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5URTVOeTR4TVRVeSJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-f3df511d79ced6cbe06e395104108899.mashsb.min", "MTU3NjEzNTQzMy4wOTE3", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UUXpNeTR3T1RFMyJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTY0My4xMTg5", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UWTBNeTR4TVRnNSJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-f269e9a3a80059942", "MTU3NjEzNTgxMS4wOTQx", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UZ3hNUzR3T1RReCJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTczOC4xMjI=", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UY3pPQzR4TWpJPSJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-89ae484a49854fa2f2151f0b04aaa58a.api.js", "MTU3NjEzNTgyMC4wOTY=", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiYXN5bmMiOmZhbHNlLCJkZWZlciI6ZmFsc2UsImlkIjoiTVRVM05qRXpOVGd5TUM0d09UWT0ifX0=");
+        NPRL.registerInlineScript("MTU3NjEzNTY3Ni4xMw==", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UWTNOaTR4TXc9PSJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-6b25f6e055c3b0850da816e385185187.astra-addon-5df1e19", "MTU3NjEzNTgzNC4wOTc4", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UZ3pOQzR3T1RjNCJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-c2454ddf1bc6c9b1e3e7682bb11db161.hoverIntent.min.js", "MTU3NjEzNTkxNS4wOTk1", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5Ua3hOUzR3T1RrMSJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTA1MS4xMzI4", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UQTFNUzR4TXpJNCJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-de393f7bbb5fc3ef1032d5896eb1958a.maxmegamenu.16.dela", "MTU3NjEzNTA0OC4xMDEz", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UQTBPQzR4TURFeiJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-de5465280f7374c9e3d10dba8c0652a3.wp-embed.min.js", "MTU3NjEzNTI2Mi4xMDMx", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5USTJNaTR4TURNeCJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-50952e901f2cfb3839af27b8a36c54b", "MTU3NjEzNTQ3OC4xMDQ4", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UUTNPQzR4TURRNCJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-50952e901f2cfb3839af27b8a36c54b-2", "MTU3NjEzNTA1Ny4xMDY2", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UQTFOeTR4TURZMiJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-50952e901f2cf", "MTU3NjEzNTIwMi4xMDgz", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5USXdNaTR4TURneiJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-50952e901f2cfb3839af27b8a36c54b-3", "MTU3NjEzNTg0OS4xMTAx", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UZzBPUzR4TVRBeCJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-50952e901f2cfb3839a", "MTU3NjEzNTQwNC4xMzY=", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UUXdOQzR4TXpZPSJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTQ0NC4xMzg0", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UUTBOQzR4TXpnMCJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-cp-popup.min.js", "MTU3NjEzNTQwMi4xMTIx", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiZGVmZXIiOiJkZWZlciIsImlkIjoiTVRVM05qRXpOVFF3TWk0eE1USXgifX0=");
+        NPRL.registerScript("css&js/nitro-min-50952e901f2cfb3839af27b8a36c54b-4", "MTU3NjEzNTU1NS4xMTQz", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UVTFOUzR4TVRReiJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-330ac2af8b164c82b519b20e31e59cc7.jquery.sid", "MTU3NjEzNTg0MC4xMTY0", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UZzBNQzR4TVRZMCJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTkyNy4xNDEz", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5Ua3lOeTR4TkRFeiJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-1102675f8c58fe775275efbc5bd69591.frontend-mo", "MTU3NjEzNTQ2Ni4xMTg0", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UUTJOaTR4TVRnMCJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-de393f7bbb5fc3ef1032d5896eb1958a", "MTU3NjEzNTIxNS4xMjA4", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5USXhOUzR4TWpBNCJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTg0OC4xNTgx", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UZzBPQzR4TlRneCJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-de393f7bbb5fc3ef1032d5896eb1958a.fronten", "MTU3NjEzNTQ1Ni4xMjMy", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UUTFOaTR4TWpNeSJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-e899dcce64c4495331f217b42554f774.position.min.js", "MTU3NjEzNTkwMi4xMjU2", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5Ua3dNaTR4TWpVMiJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-fe9d096be33b4b2c8e343ea67c9680d7.dia", "MTU3NjEzNTYyMy4xMjgx", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UWXlNeTR4TWpneCJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-05dab1e7174ef3cb7c002a1ae16cb972", "MTU3NjEzNTQ0OC4xMzA1", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UUTBPQzR4TXpBMSJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-4f24f3ceeb64381cce9e715f1d7e1eae.swi", "MTU3NjEzNTA0Mi4xMzI4", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UQTBNaTR4TXpJNCJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTU0OS4xNjI5", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UVTBPUzR4TmpJNSJ9fQ==");
+        NPRL.registerScript("css&js/nitro-min-1102675f8c58fe775275efbc5bd69591.frontend.mi", "MTU3NjEzNTQwMi4xMzQ2", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UUXdNaTR4TXpRMiJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTY1MS4xNjU3", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsiaWQiOiJNVFUzTmpFek5UWTFNUzR4TmpVMyJ9fQ==");
+        NPRL.registerInlineScript("MTU3NjEzNTkzMC4xNjc2", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsidHlwZSI6InRleHRcL2phdmFzY3JpcHQiLCJpZCI6Ik1UVTNOakV6TlRrek1DNHhOamMyIn19");
+        NPRL.registerInlineScript("slb_context", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsidHlwZSI6InRleHRcL2phdmFzY3JpcHQiLCJpZCI6InNsYl9jb250ZXh0In19");
+        NPRL.registerInlineScript("MTU3NjEzNTI0MS4xNzY=", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsidHlwZSI6InRleHRcL2phdmFzY3JpcHQiLCJpZCI6Ik1UVTNOakV6TlRJME1TNHhOelk9In19");
+        NPRL.registerInlineScript("MTU3NjEzNTUyOS4xNzk=", "eyJkZWxheSI6ZmFsc2UsImF0dHJpYnV0ZXMiOnsidHlwZSI6InRleHRcL2phdmFzY3JpcHQiLCJpZCI6Ik1UVTNOakV6TlRVeU9TNHhOems9In19");
+    </script>
+    <noscript id="nitro-deferred-styles">
+        <link rel="stylesheet" onload="NPRL.onLoadStyle(this)" onerror="NPRL.onErrorStyle(this)" href="nitro-min-noimport-2da4270cf7a43fc7e4e80c0a113be0cb-stylesheet.css" />
+    </noscript>
+    <script id="nitro-boot-resource-loader">
+        NPRL.loadQueuedResources();
+    </script>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/vegas.min.js"></script>
+<script src="js/countdown.js"></script>
+<script src="js/custom.js"></script>
+
+
+
+</body>
+
+</html>
